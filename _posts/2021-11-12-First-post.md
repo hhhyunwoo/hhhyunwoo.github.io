@@ -1,8 +1,12 @@
 ---
-title: TITLE
+layout: post
+title: First Post
 date: 2021-11-12
-categories: [TOP_CATEGORIE, SUB_CATEGORIE]
-tags: [TAG]     # TAG names should always be lowercase
+categories:
+- jekyll
+- blog
+- firstPost
+tags: [blog, jekyll, blog, jekyll theme, NexT theme, 지킬 테마, 지킬 블로그 포스팅, GitHub Pages]     # TAG names should always be lowercase
 ---
 
 # Welcome
@@ -10,3 +14,5 @@ tags: [TAG]     # TAG names should always be lowercase
 **Hello world**, this is my first Jekyll blog post.
 
 I hope you like it!
+
+![image](/assets/img/first_image.png)
