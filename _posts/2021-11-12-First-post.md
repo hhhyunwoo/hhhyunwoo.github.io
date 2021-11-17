@@ -3,10 +3,19 @@ layout: post
 title: First Post
 date: 2021-11-12
 categories:
-- jekyll
-- blog
-- firstPost
-tags: [blog, jekyll, blog, jekyll theme, NexT theme, 지킬 테마, 지킬 블로그 포스팅, GitHub Pages]     # TAG names should always be lowercase
+  - jekyll
+  - blog
+  - firstPost
+tags: [
+    blog,
+    jekyll,
+    blog,
+    jekyll theme,
+    NexT theme,
+    지킬 테마,
+    지킬 블로그 포스팅,
+    GitHub Pages,
+  ] # TAG names should always be lowercase
 ---
 
 # Welcome
