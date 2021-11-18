@@ -50,7 +50,7 @@ github 블로그를 시작할 때 Jekyll을 많이 사용한다.
 
 _[ Mac 환경에서 진행함 ]_
 
-```
+```shell
 $ brew install ruby
 $ bundle
 $ bundle exec jekyll s  # Running Local Server
@@ -64,7 +64,7 @@ $ bundle exec jekyll s  # Running Local Server
 
 근데 bundle 명령어를 칠 떄마다
 
-```
+```bash
 An error occurred while installing racc (1.6.0), and Bundler cannot continue.
 ```
 
@@ -72,7 +72,7 @@ An error occurred while installing racc (1.6.0), and Bundler cannot continue.
 
 ### 해결책
 
-```
+```bash
 xcode-select --install
 sudo gem install -n /usr/local/bin cocoapods
 ```
@@ -80,13 +80,13 @@ sudo gem install -n /usr/local/bin cocoapods
 요걸로 설치가 되면 끝! (참고 : https://hello-bryan.tistory.com/208)
 하지만 나는...
 
-```
+```bash
 xcode-select: error: command line tools are already installed, use "Software Update" to install updates
 ```
 
 이런 에러가 다시 떴다.
 
-```
+```shell
 $ sudo rm -rf /Library/Developer/CommandLineTools
 $ sudo xcode-select --install
 

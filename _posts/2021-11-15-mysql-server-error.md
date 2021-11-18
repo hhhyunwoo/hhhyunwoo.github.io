@@ -38,7 +38,7 @@ max_allowed_packet 는 서버로 질의하거나 받게되는 패킷의 최대 �
 
 즉, client와 통신할 때 핸들링 할 수 있는 데이터 양을 의미한다.
 
-```
+```shell
 $ SET GLOBAL max_allowed_packet=64*1024*1024;
 ```
 
@@ -48,7 +48,7 @@ $ SET GLOBAL max_allowed_packet=64*1024*1024;
 
 ### Client Sqlalchemy에서 설정 값 부여하기
 
-```
+```python
 engine = db.create_engine("mysql+pymysql://root:PASSWORD@IP:3306/DBNAME", pool_pre_ping=True)
 ```
 
