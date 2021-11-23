@@ -20,23 +20,6 @@ tags:
   ]
 ---
 
-- 추가사항
-  ① MySQL 과 연결에 오류가 있는 경우
-  ② 패킷 전송에 문제가 있는 경우
-  ③ 이전 연결 세션에 영향을 받은 경우
-
-pre_ping 설정해두면, select 1; 이런 쿼리 보내서 connection 끊기지 않게하는데,
-기존 mysql의 show global variables like '%timeout%';
-에서 wait_timeout 이 28800 으로 8시간이다.
-이 부분에서 Pre_ping 이더라도 끊기는 듯?
-그렇다고 mysql 설정을 무작정 늘리면 서버에 좋지 않기 때문에, client에서 해결하는게 좋음.
-그래서 다시
-
-```PYTHON
-engine = db.create_engine(settings.DB_ENGINE_URL,
-                          pool_recycle=500, pool_size=5, max_overflow=20, echo=False, echo_pool=True, )
-```
-
 으로 바꿈.
 https://yongho1037.tistory.com/569
 
@@ -47,6 +30,11 @@ Flask에서 MySQL을 이용하기 위해 Sqlalchemy 를 사용하던 도중 API 
 **ERROR 2006 (HY000) MySQL server has gone away**
 
 에러가 자주 발생하였다.
+
+> 원인
+> <br>① MySQL 과 연결에 오류가 있는 경우
+> <br>② 패킷 전송에 문제가 있는 경우
+> <br>③ 이전 연결 세션에 영향을 받은 경우
 
 구글링해서 찾아본 결과, DB서버쪽의 설정값과 Flask client에서의 문제가 있을 수 있다.
 
