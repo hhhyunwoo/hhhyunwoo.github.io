@@ -20,9 +20,6 @@ tags:
   ]
 ---
 
-으로 바꿈.
-https://yongho1037.tistory.com/569
-
 # ERROR 2006 (HY000) MySQL server has gone away 에러 해결
 
 Flask에서 MySQL을 이용하기 위해 Sqlalchemy 를 사용하던 도중 API 호출 시
