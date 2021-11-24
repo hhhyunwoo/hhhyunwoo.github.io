@@ -66,4 +66,4 @@ _하지만 표준출력으로는 완전한 로깅이 불가능하다_
 _[전체적인 차이점을 보고 싶다면 여기를 참고](https://platform9.com/blog/kubernetes-logging-comparing-fluentd-vs-logstash/)_
 <br>
 
-### Logstash, Fluentd 각각 장단점이 있지만 Kubernetes와 같은 Cloud환경에서는 Fluentd가 더 적합한 것 같다.
+`Logstash, Fluentd 각각 장단점이 있지만 Kubernetes와 같은 Cloud환경에서는 Fluentd가 더 적합한 것 같다. `
