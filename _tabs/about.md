@@ -5,14 +5,15 @@ order: 4
 ---
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/37402136/143150326-e30ee110-7924-4350-928d-bfdade556128.jpeg" width="250">
+<img src="https://user-images.githubusercontent.com/37402136/143150326-e30ee110-7924-4350-928d-bfdade556128.jpeg" width="300">
 </p>
+<br/>
 
 ## 🌟 `Backend Developer`
 
 TBD
 
----
+## <br/>
 
 ## 💻 `Interests`
 
@@ -22,6 +23,7 @@ TBD
 <img src="https://img.shields.io/badge/C-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/>
 <img src="https://img.shields.io/badge/CSS-926DBB?style=flat-square&logo=CSS3&logoColor=white"/>
 ---
+<br/>
 
 ## 🔥 `Link`
 
