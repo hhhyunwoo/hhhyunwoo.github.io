@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Bucket List
+title: [Blog] Bucket List
 date: 2021-11-22
 categories:
   - blog

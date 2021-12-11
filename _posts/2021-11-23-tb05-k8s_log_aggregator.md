@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 쿠버네티스(K8S)에서의 Log Aggregator, Logstash vs Fluentd
+title: [K8S] 쿠버네티스(K8S)에서의 Log Aggregator, Logstash vs Fluentd
 date: 2021-11-23
 categories:
-  - Trouble Shooting
+  - K8S
 tags:
   [
     blog,

@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Jekyll chirpy 템플릿으로 Github 블로그 시작하기. (Bundler Install Error)
+title: [Trouble Shooting] Jekyll chirpy 템플릿으로 Github 블로그 시작하기. (Bundler Install Error)
 date: 2021-11-13
 categories:
-  - jekyll
-  - blog
-  - github.io
-  - bundler error
+  - Trouble Shooting
+  - ETC
 tags:
   [
     blog,

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: ERROR 2006 (HY000) MySQL server has gone away 에러 해결
+title: [Trouble Shooting] [DB] ERROR 2006 (HY000) MySQL server has gone away 에러 해결
 date: 2021-11-15
 categories:
   - Trouble Shooting
+  - DB
 tags:
   [
     blog,
