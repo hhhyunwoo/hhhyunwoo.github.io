@@ -26,8 +26,8 @@ def dss_deploy_loadbalancer(cluster: SpeechServer, db: get_db = Depends()):
 ```
 
 Depends()는 무슨의미일까
-https://victoria-k.tistory.com/entry/5-Dependency-Injection%EC%9D%B4%EB%9E%80-in-Fast-API
-참고
+
+_참고 : https://victoria-k.tistory.com/entry/5-Dependency-Injection%EC%9D%B4%EB%9E%80-in-Fast-API_
 
 # title
 
