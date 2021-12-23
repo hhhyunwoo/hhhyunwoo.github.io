@@ -20,7 +20,7 @@ timezone: Asia/Seoul
 
 title: Delicious Sushi # the main title
 
-tagline: Computer Science Developer
+tagline: Computer Science Developer <br> Keep Blizt and Be Simple
 
 description: >- # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
