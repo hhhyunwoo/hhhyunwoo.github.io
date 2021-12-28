@@ -55,12 +55,6 @@ db_engine = create_engine(DATABASE_CONNECTION_INFO,
 event.listen(db_engine, 'checkout', checkout_listener)
 ```
 
-```sh
-function sqlalchemy.event.listen(target, identifier, fn, *args, **kw)
-```
-
--> Register a listener function for the given target.
-
 The listen() function is part of the primary interface for the SQLAlchemy event system, documented at Events.
 
 ```py
@@ -77,6 +71,12 @@ event.listen(
         "after_parent_attach",
         unique_constraint_name)
 ```
+
+```sh
+function sqlalchemy.event.listen(target, identifier, fn, *args, **kw)
+```
+
+-> Register a listener function for the given target.
 
 _참고_
 
