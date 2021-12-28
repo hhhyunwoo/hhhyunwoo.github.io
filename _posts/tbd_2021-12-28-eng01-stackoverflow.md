@@ -1,0 +1,157 @@
+---
+layout: post
+title: "[번역] Stack Overflow는 어떻게 운영되고 있을까?"
+date: 2021-12-28
+categories:
+  - Trouble Shooting
+tags:
+  [
+    blog,
+    jekyll,
+    jekyll theme,
+    NexT theme,
+    Computer Science,
+    컴퓨터공학,
+    개발,
+    소프트웨어,
+    지킬 테마,
+    지킬 블로그 포스팅,
+    GitHub Pages,
+  ]
+---
+
+> 개발자들의 필수 사이트 Stack Overflow가 어느 정도의 부하를 감당하고 있는지, 어떤 스펙의 하드웨어로 운영하고 있는지에 대한 좋은 칼럼이 있어서 번역글을 작성해본다.
+
+_[원본 링크](https://nickcraver.com/blog/2013/11/22/what-it-takes-to-run-stack-overflow/)_
+
+## Stack Overflow는 어떻게 운영되고 있을까?
+
+나는 Stack Overflow 가 `규모` 있게 돌아가지만 `규모` 있지는 않은 것 같다고 생각한다.
+이게 무슨말이냐면 우리는 매우 효율적으로 운영하고 있지만, 여전히 나는 우리가 `크다` 라고는 생각하지 않는다.
+우리가 현재 어떠한 규모에 위치하고 있는지 생각하기 위해서 몇 가지의 숫자를 한번 제시해보자.
+이 숫자들은 몇 일 전 24시간 동안의 기록에 대한 것들이다. (정확하게 2012년 11월 12일)
+전형적으로 평일의 숫자들이고 오직 우리의 활성화된 데이터 센터만들 포함하고 있다. (우리가 소유하고 있는 것 말이다.)
+우리 CDN 서버로의 접근과 대역폭은 우리 네트워크를 접근하지 않기 때문에 포함되어 있지 않다.
+
+- 148,084,883 - 로드벨런서로의 HTTP 응답 수
+- 36,095,312 - 페이지 로드의 수
+- 833,992,982,627 bytes (776 GB) - 보내진 HTTP 트래픽 양
+- 286,574,644,032 bytes (267 GB) - 수신한 전체 양
+- 1,125,992,557,312 bytes (1,048 GB) - 송신한 전체 양
+- 334,572,103 SQL 쿼리 (HTTP 응답으로 부터만 본 결과)
+- 412,865,051 - Redis hits
+- 3,603,418 - 태그 엔진들의 요청 수
+- 558,224,585 ms (155 hours) - SQL 쿼리들을 실행하는데 소요된 시간
+- 99,346,916 ms (27 hours) - redis에 hit 하는데 소요된 시간
+- 132,384,059 ms (36 hours) - 태그 엔진 요청에 소요된 시간
+- 2,728,177,045 ms (757 hours) - ASP.Net 에서의 과정에 소요된 시간
+  (우리가 어떻게 이러한 숫자들을 빠르게 얻을 수 있었는지, 그리고 그 숫자들을 `가지는 것` 만으로도 얼마나 노력할만한 가치가 있는지 포스팅을 해야만 했다. )
+
+<br>
+이것들이 전체를 포함한 것이 아닌 오직 Stack Exchange 네트워크만을 의미한다는 것을 명심하길 바란다.
+2가지 총합의 예외를 제외하고는 이 숫자들은 우리가 성능을 살펴보기 위해 오직 HTTP 요청으로만 얻었다.
+이게 하루에 굉장히 많은 시간인데 어떻게 하는 것일까?
+우리는 이것들을 마법이라고 부르고, 다른 이들은 `멀티 코어 프로세서를 가진 멀티 서버` 라고 부른다.
+하지만 우린 마법이라고 계속 부를 것이다.
+아래는 데이터 센터의 Stack Exchange 네트워크에서 무엇이 동작하고 있는지에 대한 것이다.
+
+- 4 MS SQL Servers
+- 11 IIS Web Servers
+- 2 Redis Servers
+- 3 Tag Engine servers (anything searching by tag hits this, e.g. /questions/tagged/c++)
+- 3 elasticsearch servers
+- 2 Load balancers (HAProxy)
+- 2 Networks (each a Nexus 5596 + Fabric Extenders)
+- 2 Cisco 5525-X ASAs (think Firewall)
+- 2 Cisco 3945 Routers
+
+**이렇게 생겼다!**
+![image](https://user-images.githubusercontent.com/37402136/147566018-1066d3b3-ac29-4b54-9a3f-65615fcf82d7.png)
+
+우리는 `사이트만` 운영하는 것이 아니다. 가장 가까운 랙에 있는 나머지 서버들은 배포, 도메인 컨트롤러, 모니터링, 운영 데이터베이스 등과 같이 사이트를 직접 서비스하지 않는 보조 기능을 위한 VM과 다른 인프라 장비들이다.
+위의 리스트 중에서 2개의 SQL 서버는 `최근까지` 만해도 백업용도였다. - 지금은 읽기 전용 로드에 사용되어지고 있어서 길게 생각하지 않고 계속해서 규모를 늘리고 있다. (이건 주로 [the Stack Exchange API](https://api.stackexchange.com/) 로 이루어져 있다.)
+
+---
+
+## Core Hardware
+
+만약 중복된 것들을 제외하고 Stack Exchange가 (현재와 같은 수준의 성능을 유지하면서) 동작하기 위해서는 아래의 것들이 필요하다.
+
+- 2 SQL servers (SO가 한 대를 차지하고 있고 다른 모든 것들은 남은 한 대에 있다... 그래도 헤드룸에 남아 있는 기계 한대로 동작할 수 있긴 하다)
+- 2 Web Servers (나는 2개라고 믿고 있지만 아마 3개일 것이다.)
+- 1 Redis Server
+- 1 Tag Engine server
+- 1 elasticsearch server
+- 1 Load balancer
+- 1 Network
+- 1 ASA
+- 1 Router
+
+(언젠가는 장비들을 종료시키고 Breaking Point 가 무엇인지 테스트 해야만 한다!)
+
+이제는 몇 개의 VM들과 백 그라운드에서 잡,도메인 컨트롤러 등을 처리할 수 있는 몇 가지만 남아있다. 하지만 이것들은 너무나도 경량화되어 있어서 Stack Overflow 그 자체에 집중할 수가 없고 모든 페이지들을 최고 속도로 렌더링할 수가 없다.
+만약 `제대로된 비교`를 하기 위해서는 (apples to apples) 모든 VMware 서버들을 모든 경우의 수에 투입해봐라.
+많은 수의 장비는 아니지만 이 장비들의 스펙을 클라우드에서 합리적인 가격으로 맞추는 것은 거의 불가능하다.
+아래는 빠르게 서버를 `Scale up`하는 방법들이다.
+
+- SQL 서버들은 384 GB 의 메모리와 1.8TB of SSD 저장소를 가지고 있다.
+- Redis 서버들은 96 GB 의 RAM 을 가지고 있다.
+- elastic search 서버들은 196 GB 의 RAM을 가지고 있다.
+- Tag engine 서버들은 우리가 살 수 있는 가장 빠른 raw processors 를 가지고 있다.
+- 네크워크 코어들은 각 포트가 10 Gb 의 대역폭을 가지고 있다.
+- 웹 서버들은 그렇게 특별하지 않은데, 32 GB 와 2x quad core, 그리고 300GB 의 SSD 저장소를 가지고 있다.
+- 2x 10Gb를 가지고 있지 않는 서버들은 (e.g. SQL) 4x 1 Gb 의 네트워크 대역폭을 가지고 있다.
+
+20Gb 가 엄청난 과잉일까?
+물론이다! 활성화된 SQL 서버들은 20GB 파이프에서 평균적으로 약 100-200 Mb를 가지고 있다.
+하지만 백업, 리빌드 등과 같은 기능들은 메모리 및 SSD 저장소가 현재 얼마나 있는지에 따라서 완전히 포화될 수도 있기 때문에 목적에 부합한다.
+
+---
+
+## Storage
+
+현재 약 2TB의 SQL 데이터를 가지고 있어서(첫번째 클러스터의 18개 SSD에서 1.06 TB / 1.63 TB / 두번째 클러스터의 4개 SSD에서 1.45 TB), 우리는 클라우드가 필요하다.(흠, 이 단어가 또 나왔네)
+모든 것은 SSD라는 것을 명심해라
+우리의 모든 데이터베이스에서 평균적인 쓰기 시간은 0 MS 이다. 이게 우리가 측정할 수 있는 최고의 단위는 아니기 때문에 저장소는 더 잘 대처하고 있을 것이다.
+데이터베이스가 메모리에 있고 그 앞에 2 레벨의 캐쉬가 있다면 Stack Overflow의 실제 읽기-쓰기 비율은 40:60이다.
+그래, 제대로 읽은 것 맞다. 60%의 우리 데이터베이스 디스크 접근은 쓰기이다. [(너는 읽기/쓰기 부하를 알아야한다.)](http://sqlblog.com/blogs/louis_davidson/archive/2009/06/20/read-write-ratio-versus-read-write-ratio.aspx)
+각 웹 서버 또한 2x 320GB SSDs in a RAID 1 의 저장소를 가지고 있다.
+Elastic Box들은 300 GB를 필요로 하고 SSD 보다 더 나은 성능을 보인다. (우린 write/reindex를 매우 자주 한다.)
+
+## subTitle 1
+
+a
+
+### subsubtitle1
+
+- a
+- a
+
+-> a
+
+### subsubtitle2
+
+- a
+- a
+
+-> a
+
+---
+
+## subTitle 2
+
+a
+
+### subsubtitle1
+
+- a
+- a
+
+-> a
+
+### subsubtitle2
+
+- a
+- a
+
+-> a
