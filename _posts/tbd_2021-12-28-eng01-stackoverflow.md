@@ -118,6 +118,18 @@ _[원본 링크](https://nickcraver.com/blog/2013/11/22/what-it-takes-to-run-sta
 각 웹 서버 또한 2x 320GB SSDs in a RAID 1 의 저장소를 가지고 있다.
 Elastic Box들은 300 GB를 필요로 하고 SSD 보다 더 나은 성능을 보인다. (우린 write/reindex를 매우 자주 한다.)
 
+https://www.dell.com/en-us/work/shop?showMessage=1
+우리가 SAN과 핵심 네트워크에 2x 10Gb 속도로 연결이 되는 24x900GB 10K SAS[(Equal Logic PS6110X)](https://www.dell.com/en-us/work/shop?showMessage=1)를 가지고 있는 것은 별 의미가 없다.
+고가용성을 위한 공유 메모리로서 VM에 독점적으로 사용된다. 하지만 실제로는 우리 웹사이트를 호스팅하는데 지원되지 않는다.
+다시 말해서 SAN이 죽더라도 우리의 웹사이트는 일시적으로 알아차리지 못할 수도 있다. (VM 도메인 컨트롤러가 그 요소일 뿐이다.)
+
+## 종합내용 (Put it all together)
+
+그래서 모든게 어떻다는 것일까?
+우리는 성능을 원한다. 아니, 우리는 성능이 `필요`하다.
+성능은 우리에게 매우 중요한 특징이다. [(Performance is a feature)](https://blog.codinghorror.com/performance-is-a-feature/)
+우리 모든 사이트에서 로딩되는
+
 ## subTitle 1
 
 a
