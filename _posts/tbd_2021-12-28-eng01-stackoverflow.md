@@ -128,7 +128,23 @@ https://www.dell.com/en-us/work/shop?showMessage=1
 그래서 모든게 어떻다는 것일까?
 우리는 성능을 원한다. 아니, 우리는 성능이 `필요`하다.
 성능은 우리에게 매우 중요한 특징이다. [(Performance is a feature)](https://blog.codinghorror.com/performance-is-a-feature/)
-우리 모든 사이트에서 로딩되는
+우리의 모든 사이트에서 로딩되는 메인 페이지는 질문 페이지인데 내부적으로는 Question/Show라고 잘 알려져있다.
+11월 12일 페이지는 평균 28 밀리세컨즈로 렌더링이 되었다.
+50ms 의 속도를 유지하기 위해 노력하는 동안, 우리는 여러분의 페이지 로딩 경험을 가능한 빠르게 하기 위해서 `정말로` 고군분투했다.
+우리의 모든 개발자들은 성능에 관해서 보증 가능할 정도로 꼼꼼한 괴짜들이기 때문에 소요 시간을 낮게 유지하는데 큰 도움을 준다.
+아래의 내용은 24시간동안 평균적인 렌더링에 있어서 SO의 Top Hit Page들이다.
+
+Question/Show: 28 ms (29.7 million hits)
+User Profiles: 39 ms (1.7 million hits)
+Question List: 78 ms (1.1 million hits)
+Home page: 65 ms (1 million hits) (매우 느린편이다. - Kevin Montrose 는 곧 수정이 될 것이다. : [가장 주요한 원인](https://kevinmontrose.com/2013/05/22/your-future-on-stack-overflow/))
+
+우리는 `모든 요청들`을 기록하면서 우리의 페이지에 어떤 것들이 오고가는지에 대해 아주 효율적인 가시성을 가지고 있다.
+당신은 이런 종류의 메트릭을 필요로한다. 만일 그렇지 않다면 `결정을 할 때 어디에 근간을 두겠는가?`
+이런 간편한 메트릭을 통해서 우리는 좀 더 쉽게 접근할 수 있고 쉽게 파악할 수 있다.
+![image](https://user-images.githubusercontent.com/37402136/147854927-ae468844-f628-4645-8254-ae75be999f57.png)
+페이지 접근 비율이 `급격하게` 떨어진 후, 만약 당신이 구체적인 페이지에 대해서 궁금해 한다면 나는 이 숫자들을 첨부한 것에 대해 기쁘게 생각할 것 같다.
+나는 여기서 렌더링 시간에 초점을 맞추었는데, 이는 웹페이지를 생상하는데 얼마나 오래 걸리는지에 대한 시간이기 때문이다. 데이터의 전송 속도는 완전히 다른 주제이기 때문에 추후에 다시 한번 더 다루도록 하겠다. (솔직히 아주 관련이 있긴 하다.)
 
 ## subTitle 1
 
