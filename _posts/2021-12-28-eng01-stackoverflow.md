@@ -3,7 +3,7 @@ layout: post
 title: "[번역] Stack Overflow는 어떻게 운영되고 있을까?"
 date: 2021-12-28
 categories:
-  - Trouble Shooting
+  - Translate
 tags:
   [
     blog,
@@ -20,7 +20,7 @@ tags:
   ]
 ---
 
-> 개발자들의 필수 사이트 Stack Overflow가 어느 정도의 부하를 감당하고 있는지, 어떤 스펙의 하드웨어로 운영하고 있는지에 대한 좋은 칼럼이 있어서 번역글을 작성해본다. 부족한 번역 실력 양해부탁한다.
+> 개발자들의 필수 사이트 Stack Overflow가 어느 정도의 부하를 감당하고 있는지, 어떤 스펙의 하드웨어로 운영하고 있는지에 대한 좋은 칼럼이 있어서 번역글을 작성해본다. 부족한 번역 실력 양해 부탁한다.
 
 _[원본 링크](https://nickcraver.com/blog/2013/11/22/what-it-takes-to-run-stack-overflow/)_
 
