@@ -34,7 +34,7 @@ Command
 
 - output 을 `json`으로 출력을 하였고 몇 가지 옵션을 추가하였다.
 
-```
+```sh
 $ docker run --rm -v /home:/config DOCKER_IMAGE:latest
 ffprobe -v quiet
 -print_format json
@@ -47,7 +47,7 @@ Output
 
 - 아래의 결과 값과 같이 해당 미디어의 다양한 `Key`값들을 분석해서 보여줄 수 있다.
 
-```
+```sh
 {
     "streams": [
         {
