@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Python] Fastapi 에서의 Depends"
+title: "[Python] Fastapi 에서의 get_db = Depends()란?"
 date: 2021-11-13
 categories:
   - Python
@@ -29,7 +29,14 @@ Depends()는 무슨의미일까
 
 _참고 : https://victoria-k.tistory.com/entry/5-Dependency-Injection%EC%9D%B4%EB%9E%80-in-Fast-API_
 
-# title
+# Fastapi 에서의 get_db = Depends()란?
+
+FastAPI를 사용하면서 DB접근을 했다면 db: get_db = Depends() 를 사용해본 경험이 있을 것이다.
+
+```py
+def predict(cluster: test, db: get_db = Depends()):
+    return
+```
 
 ## subTitle 1
 
