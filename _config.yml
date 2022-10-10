@@ -18,9 +18,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Delicious Sushi # the main title
+title: Hhhyunwoo # the main title
 
-tagline: Computer Science Developer <br> Keep Blizt and Be Simple
+tagline: Software Engineer <br> Keep Blizt and Be Simple
 
 description: >- # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
