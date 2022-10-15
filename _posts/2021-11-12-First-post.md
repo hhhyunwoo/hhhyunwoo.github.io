@@ -3,9 +3,7 @@ layout: post
 title: First Post
 date: 2021-11-12
 categories:
-  - jekyll
-  - blog
-  - firstPost
+  - ETC
 tags: [
     blog,
     jekyll,
