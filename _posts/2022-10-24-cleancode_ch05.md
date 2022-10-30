@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Clean code] Ch05~06. Fomatting & Objects and Data Structures"
+title: "[Clean code] Ch05,06. Fomatting & Objects and Data Structures"
 date: 2022-10-24
 categories:
   - Study
