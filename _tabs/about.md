@@ -10,7 +10,7 @@ order: 4
   </div>
   <div>
     <h2>CONTACT INFORMATION</h2>
-    <p>📮 Contacts</p>
+    <h3>📮 Contacts</h3>
     <ul>
       <li>
         <a href="mailto:qgusdngusdn@gmail.com">
@@ -23,7 +23,7 @@ order: 4
         </a>
       </li>
     </ul>
-    <p>📚 Blog</p>
+    <h3>📚 Blog</h3>
     <ul>
       <li>
         <a href="https://hhhyunwoo.github.io/">
@@ -36,7 +36,7 @@ order: 4
         </a>
       </li>
     </ul>
-    <p>🔗 SNS</p>
+    <h3>🔗 SNS</h3>
     <ul>
       <li>
         <a href="https://github.com/hhhyunwoo">
