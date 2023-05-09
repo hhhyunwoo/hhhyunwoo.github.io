@@ -56,7 +56,7 @@ tags:
 
 <img width="837" alt="image" src="https://user-images.githubusercontent.com/37402136/214020188-a24bc595-d336-4ecf-9e9f-b1cdfaea3870.png">
 
-<img width="837" alt="image" src="https://user-images.githubusercontent.com/37402136/214020188-a24bc595-d336-4ecf-9e9f-b1cdfaea3870.png">
+<img width="837" alt="image" src="https://user-images.githubusercontent.com/37402136/214020188-a24bc595-d336-4git commit --amend --author="korband <korband78@gmail.com>"ecf-9e9f-b1cdfaea3870.png">
 
 ## Distance Vector 와 Link state
 
