@@ -18,9 +18,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Hhhyunwoo # the main title
+title: Hyunwoo Kim # the main title
 
-tagline: Software Engineer <br> Keep Blizt and Be Simple
+tagline: Software Engineer <br> <br> Keep Blizt and Be Simple
 
 description: >- # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -71,7 +71,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: light
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url

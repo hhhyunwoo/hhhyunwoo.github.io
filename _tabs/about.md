@@ -1,21 +1,36 @@
 ---
-title: Keep Blizt and Be Simple
+title: About Hyunwoo Kim (Hans)
 icon: fas fa-info-circle
 order: 4
 ---
 
-<p >
-<img src="https://user-images.githubusercontent.com/37402136/143150326-e30ee110-7924-4350-928d-bfdade556128.jpeg" width="300">
-</p>
-<br/>
+<div style="display: flex; flex-direction: row;">
+  <div style="margin-right: 2rem;">
+    <img src="https://user-images.githubusercontent.com/37402136/143150326-e30ee110-7924-4350-928d-bfdade556128.jpeg" width="300">
+  </div>
+  <div>
+    <h2>CONTACT INFORMATION</h2>
+    <p>📮 Contacts</p>
+    <ul>
+      <li>qgusdngusdn@gmial.com</li>
+      <li>hans.rw@kakaoenterprise.com</li>
+    </ul>
+    <p>📚 Blog</p>
+    <ul>
+      <li><a href="https://hhhyunwoo.github.io/">Github Blog</a></li>
+      <li><a href="https://qrlagusdn.tistory.com/">Tistory Blog</a></li>
+    </ul>
+    <p>🔗 SNS</p>
+    <ul>
+      <li><a href="https://github.com/hhhyunwoo">Github</a></li>
+      <li><a href="https://www.linkedin.com/in/qrlagusdn/">LinkedIn</a></li>
+    </ul>
+  </div>
+</div>
 
-## 🌟 `Software Engineer`
-Engineer
+---
 
-
-## <br/>
-
-## 💻 `Interests`
+## INTERESTS
 
 <a><img src="https://img.shields.io/badge/Machine Learning-9F6D1B?style=flat-square&logo=ML&logoColor=white"/></a>
 <a><img src="https://img.shields.io/badge/MLops-A0F99C?style=flat-square&logo=ML&logoColor=white"/></a>
@@ -27,17 +42,21 @@ Engineer
 
 ---
 
-<br/>
+## WORK EXPERIENCES
+### KAKAO ENTERPRISE, Pangyo, Korea
+#### Software development engineer, System (Mar 2022 - present)
+- Software development engineer, System	Mar 2022 - present
+- Responsible for provisioning infrastructure and developing tools for developing, testing and deploying services/apps in microservice architecture
 
-## 🔥 `Link`
-
-- 티스토리 블로그(구) : [https://qrlagusdn.tistory.com/](https://qrlagusdn.tistory.com/)
-- GitHub : [https://github.com/qrlagusdn](https://github.com/qrlagusdn)
-- Linkedin : [https://www.linkedin.com/in/qrlagusdn/](https://www.linkedin.com/in/qrlagusdn/)
 
 ---
 
-> 아래 이메일로 연락해 주세요 😁
+## EDUCATION
 
-- qgusdngusdn@gmail.com
-- hans.rw@kakaoenterprise.com
+
+---
+
+## SKILLS
+
+
+---
