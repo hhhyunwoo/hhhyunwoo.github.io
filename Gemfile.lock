@@ -63,22 +63,22 @@ GEM
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
-    liquid (4.0.3)
+    liquid (4.0.4)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    nokogiri (1.13.3-arm64-darwin)
+    nokogiri (1.14.3-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.3-x86_64-darwin)
+    nokogiri (1.14.3-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.13.3-x86_64-linux)
+    nokogiri (1.14.3-x86_64-linux)
       racc (~> 1.4)
     parallel (1.21.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.6)
-    racc (1.6.0)
+    racc (1.6.2)
     rainbow (3.1.1)
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
@@ -104,11 +104,13 @@ GEM
 
 PLATFORMS
   universal-darwin-20
+  x86_64-darwin-21
   x86_64-linux
 
 DEPENDENCIES
   html-proofer (~> 3.18)
   jekyll-theme-chirpy (~> 4.3, >= 4.3.3)
+  liquid (~> 4.0.4)
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)
