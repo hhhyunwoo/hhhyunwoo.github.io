@@ -70,23 +70,63 @@ order: 4
 function switchLanguage(lang) {
   var content = document.getElementById("content");
   var enContent = `
-<h2>WORK EXPERIENCES</h2>
-<h3>KAKAO ENTERPRISE, Pangyo, Korea</h3>
-<h4>Software development engineer, System (Mar 2022 - present)</h4>
-<ul>
-<li>Software development engineer, System (Mar 2022 - present)</li>
-<li>Responsible for provisioning infrastructure and developing tools for developing, testing and deploying services/apps in microservice architecture</li>
-</ul>
+    <h2>WORK EXPERIENCES</h2>
+    <h3>KAKAO ENTERPRISE, Pangyo, Korea</h3>
+    <h4>Cloud Software engineer, Machine Learning Platform Part (Mar 2022 - present)</h4>
+    <ul>
+        <li>Building MLOps Platform called Kakao i Machine Learning Platform</li>
+        <li>Operated services for Kakao i Machine Learning in a Kubernetes-based environment</li>
+        <li>2023 High-Performance Computing Project Operation</li>
+        <li>GPU and infrastructure resource operation and management</li>
+    </ul>
+    <h4>Software System engineer, Voice System Part (Jul 2020 - Mar 2022)</h4>
+    <ul>
+        <li>Kakao i Cloud STT service development</li>
+        <li>Kakao i Voice Transcription Tool Development and Operation</li>
+        <li>Kakao i Voice Log Management System Development and Operation</li>
+        <li>In-house Voice Service Demo Tool Development and Operation</li>
+    </ul>
+    <h2>SKILLS</h2>
+    <h3>Languages</h3>
+    <p>Korean (native), English (conversational)</p>
+    <h3>Technical Skills:</h3>
+    <ul>
+        <li>Strong understanding of computer system/software architecture (e.g. process model, memory management, etc).</li>
+        <li>Theoretical/practical knowledge of various data structures and algorithms. Experienced in implementing them.</li>
+        <li>Intuitions for the structure and dynamics of a solution, or a system.</li>
+    </ul>
+    <h3>Keywords</h3>
+    <p>Python, Linux/System programming, Docker, Kubernetes, Machine Learning, DevOps, Microservice architecture</p>
 `;
 
   var koContent = `
-<h2>경력</h2>
-<h3>카카오엔터프라이즈, 판교, 한국</h3>
-<h4>소프트웨어 개발 엔지니어, 시스템 (2022년 3월 - 현재)</h4>
-<ul>
-  <li>소프트웨어 개발 엔지니어, 시스템 (2022년 3월 - 현재)</li>
-  <li>마이크로서비스 아키텍처에서 서비스/앱 개발, 테스트 및 배포를 위한 인프라 프로비저닝 및 도구 개발 담당</li>
-</ul>
+    <h2>경력 사항</h2>
+    <h3>KAKAO ENTERPRISE, Pangyo, Korea</h3>
+    <h4>Cloud Software engineer, Machine Learning Platform Part (Mar 2022 - present)</h4>
+    <ul>
+        <li>Kakao i Machine Learning MLOps 플랫폼 개발</li>
+        <li>Kakao i Machine Learning 플랫폼 사내 운영</li>
+        <li>공공 고성능 컴퓨팅 지원 사업 Kakao i Machine Learning 플랫폼 운영</li>
+        <li>GPU 및 인프라 리소스 운영 및 관리</li>
+    </ul>
+    <h4>Software engineer, Voice System Part (Jul 2020 - Mar 2022)</h4>
+    <ul>
+        <li>Kakao i Cloud STT 서비스 개발</li>
+        <li>Kakao i 음성 전사 툴 개발 및 운영</li>
+        <li>Kakao i 음성 로그 관리 시스템 개발 및 운영</li>
+        <li>사내 음성 서비스 데모 툴 개발 및 운영</li>
+    </ul>
+    <h2>기술</h2>
+    <h3>Languages</h3>
+    <p>Korean (native), English (conversational)</p>
+    <h3>Technical Skills:</h3>
+    <ul>
+        <li>컴퓨터 시스템과 소프트웨어 아키텍처에 대한 높은 이해도를 가지고 있습니다. (e.g. process model, memory management, etc).</li>
+        <li>클라우드 환경의 시스템 구성에 대한 높은 이해도를 가지고 있고 리눅스 시스템에서의 문제 해결 능력을 가지고 있습니다.</li>
+        <li>솔루션과 시스템의 구조에 대한 직관력을 가지고 있습니다.</li>
+    </ul>
+    <h3>Keywords</h3>
+    <p>Python, Linux/System programming, Docker, Kubernetes, Machine Learning, DevOps, Microservice architecture</p>
 `;
 
   if (lang === 'en') {
@@ -127,25 +167,43 @@ function switchLanguage(lang) {
   <button onclick="switchLanguage('ko')">KO</button>
 </div>
 
-<div id="content" class="language">
+<div id="content" class="language"> 
     <h2>WORK EXPERIENCES</h2>
     <h3>KAKAO ENTERPRISE, Pangyo, Korea</h3>
-    <h4>Software development engineer, System (Mar 2022 - present)</h4>
+    <h4>Cloud Software engineer, Machine Learning Platform Part (Mar 2022 - present)</h4>
     <ul>
-    <li>Software development engineer, System (Mar 2022 - present)</li>
-    <li>Responsible for provisioning infrastructure and developing tools for developing, testing and deploying services/apps in microservice architecture</li>
+        <li>Building MLOps Platform called Kakao i Machine Learning Platform</li>
+        <li>Operated services for Kakao i Machine Learning in a Kubernetes-based environment</li>
+        <li>2023 High-Performance Computing Project Operation</li>
+        <li>GPU and infrastructure resource operation and management</li>
     </ul>
+    <h4>Software System engineer, Voice System Part (Jul 2020 - Mar 2022)</h4>
+    <ul>
+        <li>Kakao i Cloud STT service development</li>
+        <li>Kakao i Voice Transcription Tool Development and Operation</li>
+        <li>Kakao i Voice Log Management System Development and Operation</li>
+        <li>In-house Voice Service Demo Tool Development and Operation</li>
+    </ul>
+    <h2>SKILLS</h2>
+    <h3>Languages</h3>
+    <p>Korean (native), English (conversational)</p>
+    <h3>Technical Skills:</h3>
+    <ul>
+        <li>Strong understanding of computer system/software architecture (e.g. process model, memory management, etc).</li>
+        <li>Theoretical/practical knowledge of various data structures and algorithms. Experienced in implementing them.</li>
+        <li>Intuitions for the structure and dynamics of a solution, or a system.</li>
+    </ul>
+    <h3>Keywords</h3>
+    <p>Python, Linux/System programming, Docker, Kubernetes, Machine Learning, DevOps, Microservice architecture</p>
 </div>
 
 
 ---
+<div>
+    <h2>EDUCATION</h2>
+    <h3>KYUNGPOOK NATIONAL UNIVERSITY, Republic of Korea</h3>
+    <p>Bachelor of Computer Science (GPA: 4.10/4.50) - Mar 2015 to Feb 2021</p>
+    <h3>DARMSTADT UNIVERSITY OF APPLIED SCIENCES, Germany</h3>
+    <p>International Studies Program - Spring Semester 2020</p>
+</div>
 
-## EDUCATION
-
-
----
-
-## SKILLS
-
-
----
