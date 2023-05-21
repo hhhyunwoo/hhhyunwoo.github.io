@@ -18,6 +18,7 @@ tags: [
 > 
 
 # Data Model
+- [Docs](https://etcd.io/docs/v3.5/learning/data_model/)
 
 > "A persistent, multi-version, concurrency-control data model"
 > (유지되고, Multi version 이면서, 동시성 컨트롤이 되는 데이터 구조)
