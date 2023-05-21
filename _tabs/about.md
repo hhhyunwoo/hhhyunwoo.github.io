@@ -53,6 +53,8 @@ order: 4
   </div>
 </div>
 
+An agile and enthusiastic software engineer with a good at rapid learning. Strong sense of responsibility, teamwork, and dedication. Committed to streamlining daily routines and improving quality of life.
+
 ---
 
 ## INTERESTS
