@@ -4,6 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
+> If you are intereted in me, please visit my [Notion Portfolio](https://hhhyunwoo.notion.site/Hyunwoo-Kim-s-Portfolio-cbeb0c3e71874e4694b33f58dd50ec0a) for detail! 
+
 
 <div style="display: flex; flex-direction: row;">
   <div style="margin-right: 2rem;">
