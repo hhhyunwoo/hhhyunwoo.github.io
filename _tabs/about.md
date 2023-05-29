@@ -53,7 +53,15 @@ order: 4
   </div>
 </div>
 
-An agile and enthusiastic software engineer with a good at rapid learning. Strong sense of responsibility, teamwork, and dedication. Committed to streamlining daily routines and improving quality of life.
+## 🌥 CLOUD SOFTWARE ENGINEER
+
+---
+
+### GPU *2000*장이 넘는 대규모 **HPC** 클러스터 운영 경험이 있는 **System Engineer**
+
+### **MLOps** 플랫폼의 기획부터 운영까지 *End-to-End* 경험이 있는 **Software Engineer**
+
+### **Cloud Native** 기술에 익숙한 **DevOps Engineer**
 
 ---
 
@@ -68,6 +76,99 @@ An agile and enthusiastic software engineer with a good at rapid learning. Stron
 <a><img src="https://img.shields.io/badge/CSS-926DBB?style=flat-square&logo=CSS3&logoColor=white"/></a>
 
 ---
+# 🏢  WORK EXPERIENCES
+
+---
+
+## Kakao Enterprise, South Korea
+
+### 클라우드 소프트웨어 엔지니어, ML플랫폼 파트
+
+*Mar 2022 ~ Present*
+
+- Kakao i Machine Learning MLOps 플랫폼의 기획부터 개발, 운영까지 End-to-End 로 주도적 진행
+- 2000장이 넘는 GPU 카드와 Infiniband Network 로 구성된 HPC 클러스터를 안정적으로 운영
+- 공공 환경의 고성능 컴퓨팅 사업을 위하여 공공 환경을 안정적으로 구축 및 운영
+- 분당 고전력 상면 이전을 위하여 약 300대 이상의 장비를 계획부터 이전까지 성공적으로 진행
+
+### 소프트웨어 시스템 엔지니어, 음성시스템파트
+
+*Jul 2020 ~ Feb 2022*
+
+- **Kakao i Cloud STT 서비스**의 Cluster Controller 컴포넌트를 개발하여 수 십대의 클러스터를 안정적으로 서비스에서 사용
+- **Kakao i 음성 전사 툴**을 기획부터 개발, 운영까지 진행하여 8명의 전사자가 매일 약 3K 문장을 안정적으로 전사 작업할 수 있도록 지원
+- 약 10만명의 사용자가 발화하는 매일 3백만 건의 Kakao i 음성 데이터를 관리하기 위한 로그 관리 시스템을 개발 및 운영
+- 사내 음성 서비스 데모를 제공하는 툴 개발 및 운영
+
+---
+# 🛠  SKILLS
+
+---
+
+## Language
+
+- Python
+- Go
+
+## Cloud Native
+
+- Kubernetes
+- Docker
+- ArgoCD
+- Kubeflow
+
+## DevOps
+
+- ArgoCD
+- Github Action
+- Jenkins
+- Helm
+
+## Keywords
+
+- Microservice architecture
+- Linux/System programming
+- Machine Learning
+
+# 🎓  EDUCATION
+
+---
+
+## Kyungpook National University, South Korea
+
+2015.03 ~ 2021.02.
+
+- *Bachelor of Computer Science*
+- *GPA : 4.10 / 4.50*
+
+## Darmstadt Univ of Applied Sciences**, Germany**
+
+Spring Semester 2020
+
+- *International Studies Program*
+
+# 📜 CERTIFICATIONS
+
+---
+
+### AWS Certified Cloud Practitioner (CLF)
+
+Issued Apr 2023 · Expires Apr 2026
+
+### MLOps Engineering on AWSMLOps Engineering on AWS
+
+Issued Apr 2022 · Expires Apr 2025
+
+
+
+
+
+
+
+
+
+
+
 <script>
 function switchLanguage(lang) {
   var content = document.getElementById("content");
@@ -209,3 +310,84 @@ function switchLanguage(lang) {
     <p>International Studies Program - Spring Semester 2020</p>
 </div>
 
+
+
+# 💻  WORK EXPERIENCES
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="image1.jpg" alt="Image 1" width="200">
+      <br>
+      Caption 1
+    </td>
+    <td align="center">
+      <img src="image2.jpg" alt="Image 2" width="200">
+      <br>
+      Caption 2
+    </td>
+    <td align="center">
+      <img src="image3.jpg" alt="Image 3" width="200">
+      <br>
+      Caption 3
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="image4.jpg" alt="Image 4" width="200">
+      <br>
+      Caption 4
+    </td>
+    <td align="center">
+      <img src="image5.jpg" alt="Image 5" width="200">
+      <br>
+      Caption 5
+    </td>
+    <td align="center">
+      <img src="image6.jpg" alt="Image 6" width="200">
+      <br>
+      Caption 6
+    </td>
+  </tr>
+</table>
+
+
+---
+# 🎈  OTHER EXPERIENCES
+<table>
+  <tr>
+    <td align="center">
+      <img src="image1.jpg" alt="Image 1" width="200">
+      <br>
+      Caption 1
+    </td>
+    <td align="center">
+      <img src="image2.jpg" alt="Image 2" width="200">
+      <br>
+      Caption 2
+    </td>
+    <td align="center">
+      <img src="image3.jpg" alt="Image 3" width="200">
+      <br>
+      Caption 3
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="image4.jpg" alt="Image 4" width="200">
+      <br>
+      Caption 4
+    </td>
+    <td align="center">
+      <img src="image5.jpg" alt="Image 5" width="200">
+      <br>
+      Caption 5
+    </td>
+    <td align="center">
+      <img src="image6.jpg" alt="Image 6" width="200">
+      <br>
+      Caption 6
+    </td>
+  </tr>
+</table>
+---
