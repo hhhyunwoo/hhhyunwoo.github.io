@@ -4,8 +4,8 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> If you are intereted in me, please visit my [Notion Portfolio(ko)](https://hhhyunwoo.notion.site/Hyunwoo-Kim-s-Portfolio-cbeb0c3e71874e4694b33f58dd50ec0a) or [Notion Portfolio(en)](https://hhhyunwoo.notion.site/hhhyunwoo/Hyunwoo-Kim-s-Portfolio-EN-590e8464f17a44ffa69e8fc67c0680ef) for detail! 
-
+> If you are intereted in me, you can get more detail about me by visiting my [Notion Portfolio(ko)](https://hhhyunwoo.notion.site/Hyunwoo-Kim-s-Portfolio-cbeb0c3e71874e4694b33f58dd50ec0a) or [Notion Portfolio(en)](https://hhhyunwoo.notion.site/hhhyunwoo/Hyunwoo-Kim-s-Portfolio-EN-590e8464f17a44ffa69e8fc67c0680ef) for detail! 
+<br>
 
 <div style="display: flex; flex-direction: row;">
   <div style="margin-right: 2rem;">
@@ -58,18 +58,18 @@ order: 4
 ## 🌥 CLOUD SOFTWARE ENGINEER
 
 ---
+### Experienced System Engineer with expertise in operating large-scale **HPC clusters**, managing over *2,000 GPUs*
 
-### GPU *2000*장이 넘는 대규모 **HPC** 클러스터 운영 경험이 있는 **System Engineer**
+### Proficient in *end-to-end* planning and operation of **MLOps platform** as a Software Engineer
 
-### **MLOps** 플랫폼의 기획부터 운영까지 *End-to-End* 경험이 있는 **Software Engineer**
-
-### **Cloud Native** 기술에 익숙한 **DevOps Engineer**
+### Skilled **DevOps Engineer** well-versed in Cloud Native technologies
 
 ---
 
 ## INTERESTS
 
 <a><img src="https://img.shields.io/badge/Machine Learning-9F6D1B?style=flat-square&logo=ML&logoColor=white"/></a>
+<a><img src="https://img.shields.io/badge/Cloud Native-926DCB?style=flat-square&logo=cloud&logoColor=blue"/></a>
 <a><img src="https://img.shields.io/badge/MLops-A0F99C?style=flat-square&logo=ML&logoColor=white"/></a>
 <a><img src="https://img.shields.io/badge/Python-ED9517?style=flat-square&logo=python&logoColor=white"/></a>
 <a><img src="https://img.shields.io/badge/Javascript-E10098?style=flat-square&logo=Javascript&logoColor=white"/></a>
@@ -84,23 +84,23 @@ order: 4
 
 ## Kakao Enterprise, South Korea
 
-### 클라우드 소프트웨어 엔지니어, ML플랫폼 파트
+### Cloud Software Engineer, Machine Learning Platform Part
 
 *Mar 2022 ~ Present*
 
-- Kakao i Machine Learning MLOps 플랫폼의 기획부터 개발, 운영까지 End-to-End 로 주도적 진행
-- 2000장이 넘는 GPU 카드와 Infiniband Network 로 구성된 HPC 클러스터를 안정적으로 운영
-- 공공 환경의 고성능 컴퓨팅 사업을 위하여 공공 환경을 안정적으로 구축 및 운영
-- 분당 고전력 상면 이전을 위하여 약 300대 이상의 장비를 계획부터 이전까지 성공적으로 진행
+- Led end-to-end planning, development, and operation of Kakao i Machine Learning MLOps platform.
+- Successfully operated a stable HPC cluster composed of over 2,000 GPUs and Infiniband Network.
+- Established and maintained stable infrastructure for high-performance computing projects in public environments.
+- Planned and executed the successful relocation of over 300 devices for a major power facility relocation.
 
-### 소프트웨어 시스템 엔지니어, 음성시스템파트
+### Software System Engineer, Voice System Part
 
 *Jul 2020 ~ Feb 2022*
 
-- **Kakao i Cloud STT 서비스**의 Cluster Controller 컴포넌트를 개발하여 수 십대의 클러스터를 안정적으로 서비스에서 사용
-- **Kakao i 음성 전사 툴**을 기획부터 개발, 운영까지 진행하여 8명의 전사자가 매일 약 3K 문장을 안정적으로 전사 작업할 수 있도록 지원
-- 약 10만명의 사용자가 발화하는 매일 3백만 건의 Kakao i 음성 데이터를 관리하기 위한 로그 관리 시스템을 개발 및 운영
-- 사내 음성 서비스 데모를 제공하는 툴 개발 및 운영
+- Developed the Cluster Controller component for Kakao i Cloud STT service, ensuring stable operation across multiple clusters.
+- Led the planning, development, and operation of Kakao i Speech Transcription Tool, enabling 8 transcribers to process approximately 3K sentences daily.
+- Developed and operated a log management system to handle approximately 3 million daily Kakao i voice data from around 100,000 users.
+- Developed and operated tools for providing internal voice service demos.
 
 ---
 # 🛠  SKILLS
@@ -143,7 +143,7 @@ order: 4
 - *Bachelor of Computer Science*
 - *GPA : 4.10 / 4.50*
 
-## Darmstadt Univ of Applied Sciences**, Germany**
+## Darmstadt Univ of Applied Sciences, Germany
 
 Spring Semester 2020
 
@@ -160,156 +160,3 @@ Issued Apr 2023 · Expires Apr 2026
 ### MLOps Engineering on AWSMLOps Engineering on AWS
 
 Issued Apr 2022 · Expires Apr 2025
-
-
-
-
-
-
-
-
-
-
-
-<script>
-function switchLanguage(lang) {
-  var content = document.getElementById("content");
-  var enContent = `
-    <h2>WORK EXPERIENCES</h2>
-    <h3>KAKAO ENTERPRISE, Pangyo, Korea</h3>
-    <h4>Cloud Software engineer, Machine Learning Platform Part (Mar 2022 - present)</h4>
-    <ul>
-        <li>Building MLOps Platform called Kakao i Machine Learning Platform</li>
-        <li>Operated services for Kakao i Machine Learning in a Kubernetes-based environment</li>
-        <li>2023 High-Performance Computing Project Operation</li>
-        <li>GPU and infrastructure resource operation and management</li>
-    </ul>
-    <h4>Software System engineer, Voice System Part (Jul 2020 - Mar 2022)</h4>
-    <ul>
-        <li>Kakao i Cloud STT service development</li>
-        <li>Kakao i Voice Transcription Tool Development and Operation</li>
-        <li>Kakao i Voice Log Management System Development and Operation</li>
-        <li>In-house Voice Service Demo Tool Development and Operation</li>
-    </ul>
-    <h2>SKILLS</h2>
-    <h3>Languages</h3>
-    <p>Korean (native), English (conversational)</p>
-    <h3>Technical Skills:</h3>
-    <ul>
-        <li>Strong understanding of computer system/software architecture (e.g. process model, memory management, etc).</li>
-        <li>Theoretical/practical knowledge of various data structures and algorithms. Experienced in implementing them.</li>
-        <li>Intuitions for the structure and dynamics of a solution, or a system.</li>
-    </ul>
-    <h3>Keywords</h3>
-    <p>Python, Linux/System programming, Docker, Kubernetes, Machine Learning, DevOps, Microservice architecture</p>
-`;
-
-  var koContent = `
-    <h2>경력 사항</h2>
-    <h3>KAKAO ENTERPRISE, Pangyo, Korea</h3>
-    <h4>Cloud Software engineer, Machine Learning Platform Part (Mar 2022 - present)</h4>
-    <ul>
-        <li>Kakao i Machine Learning MLOps 플랫폼 개발</li>
-        <li>Kakao i Machine Learning 플랫폼 사내 운영</li>
-        <li>공공 고성능 컴퓨팅 지원 사업 Kakao i Machine Learning 플랫폼 운영</li>
-        <li>GPU 및 인프라 리소스 운영 및 관리</li>
-    </ul>
-    <h4>Software engineer, Voice System Part (Jul 2020 - Mar 2022)</h4>
-    <ul>
-        <li>Kakao i Cloud STT 서비스 개발</li>
-        <li>Kakao i 음성 전사 툴 개발 및 운영</li>
-        <li>Kakao i 음성 로그 관리 시스템 개발 및 운영</li>
-        <li>사내 음성 서비스 데모 툴 개발 및 운영</li>
-    </ul>
-    <h2>기술</h2>
-    <h3>Languages</h3>
-    <p>Korean (native), English (conversational)</p>
-    <h3>Technical Skills:</h3>
-    <ul>
-        <li>컴퓨터 시스템과 소프트웨어 아키텍처에 대한 높은 이해도를 가지고 있습니다. (e.g. process model, memory management, etc).</li>
-        <li>클라우드 환경의 시스템 구성에 대한 높은 이해도를 가지고 있고 리눅스 시스템에서의 문제 해결 능력을 가지고 있습니다.</li>
-        <li>솔루션과 시스템의 구조에 대한 직관력을 가지고 있습니다.</li>
-    </ul>
-    <h3>Keywords</h3>
-    <p>Python, Linux/System programming, Docker, Kubernetes, Machine Learning, DevOps, Microservice architecture</p>
-`;
-
-  if (lang === 'en') {
-    content.innerHTML = enContent;
-  } else if (lang === 'ko') {
-    content.innerHTML = koContent;
-  }
-}
-</script>
-
-<style>
-.toggle-buttons {
-  text-align: right;
-}
-
-.toggle-buttons button {
-  background-color: #f8f8f8;
-  border: none;
-  color: #333;
-  padding: 8px 16px;
-  margin-left: 4px;
-  cursor: pointer;
-  font-size: 14px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-.toggle-buttons button:hover {
-  background-color: #e6e6e6;
-}
-.toggle-buttons button.active {
-  background-color: #EBD4D4;
-}
-</style>
-
-<div class="toggle-buttons">
-  <button onclick="switchLanguage('en')">EN</button>
-  <button onclick="switchLanguage('ko')">KO</button>
-</div>
-
-<div id="content" class="language"> 
-    <h2>WORK EXPERIENCES</h2>
-    <h3>KAKAO ENTERPRISE, Pangyo, Korea</h3>
-    <h4>Cloud Software engineer, Machine Learning Platform Part (Mar 2022 - present)</h4>
-    <ul>
-        <li>Building MLOps Platform called Kakao i Machine Learning Platform</li>
-        <li>Operated services for Kakao i Machine Learning in a Kubernetes-based environment</li>
-        <li>2023 High-Performance Computing Project Operation</li>
-        <li>GPU and infrastructure resource operation and management</li>
-    </ul>
-    <h4>Software System engineer, Voice System Part (Jul 2020 - Mar 2022)</h4>
-    <ul>
-        <li>Kakao i Cloud STT service development</li>
-        <li>Kakao i Voice Transcription Tool Development and Operation</li>
-        <li>Kakao i Voice Log Management System Development and Operation</li>
-        <li>In-house Voice Service Demo Tool Development and Operation</li>
-    </ul>
-    <h2>SKILLS</h2>
-    <h3>Languages</h3>
-    <p>Korean (native), English (conversational)</p>
-    <h3>Technical Skills:</h3>
-    <ul>
-        <li>Strong understanding of computer system/software architecture (e.g. process model, memory management, etc).</li>
-        <li>Theoretical/practical knowledge of various data structures and algorithms. Experienced in implementing them.</li>
-        <li>Intuitions for the structure and dynamics of a solution, or a system.</li>
-    </ul>
-    <h3>Keywords</h3>
-    <p>Python, Linux/System programming, Docker, Kubernetes, Machine Learning, DevOps, Microservice architecture</p>
-</div>
-
-
----
-<div>
-    <h2>EDUCATION</h2>
-    <h3>KYUNGPOOK NATIONAL UNIVERSITY, Republic of Korea</h3>
-    <p>Bachelor of Computer Science (GPA: 4.10/4.50) - Mar 2015 to Feb 2021</p>
-    <h3>DARMSTADT UNIVERSITY OF APPLIED SCIENCES, Germany</h3>
-    <p>International Studies Program - Spring Semester 2020</p>
-</div>
-
-
