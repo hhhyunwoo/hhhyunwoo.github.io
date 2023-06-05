@@ -15,7 +15,6 @@ tags: [
     http,
   ]
 ---
-# [etcd] [Docs Learning] Learner Design
 
 > [etcd 공식 Docs](https://etcd.io/docs/v3.5/learning/) 의 Learning 문서를 보고 공부 및 해석한 내용을 기록합니다.
 > 

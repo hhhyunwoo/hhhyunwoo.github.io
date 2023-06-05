@@ -22,4 +22,3 @@ tags: [
 
 I hope you like it!
 
-![image](/assets/img/first_image.png)
