@@ -3,7 +3,6 @@ layout: post
 title: "[K8S] 5.4.0-132 커널의 epoll 버그로 인한 etcd leader election 이슈"
 date: 2023-05-17
 categories:
-  - Trouble Shooting
   - Kubernetes
 tags: [
     kubernetes,

@@ -1,11 +1,13 @@
 ---
 layout: post
-title: "[Kubernetes] Kubectx 사용 시 선택한 kubeconfig 를 제대로 못 불러오는 문제 해결"
+title: "[K8S] Kubectx 사용 시 선택한 kubeconfig 를 제대로 못 불러오는 문제 해결"
 date: 2022-04-21
 categories:
-  - Trouble Shooting
+  - Kubernetes
 tags:
   [
+    kubernetes,
+    k8s,
     blog,
     jekyll,
     jekyll theme,
