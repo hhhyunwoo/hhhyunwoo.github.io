@@ -38,6 +38,7 @@ tags: [
 ### Uncorrectable ECC 란?
 
 [Nvidia GPU uecc error Docs](https://docs.nvidia.com/deploy/a100-gpu-mem-error-mgmt/index.html#response-uncorrectable-contained-ecc-errors)
+<img width="1033" alt="image" src="https://github.com/hhhyunwoo/leetcode/assets/37402136/e34a1b07-8087-4251-8075-1a711d0cc688">
 
 - `ECC` : Error Correcting Code
     - **메모리의 기능 중 하나를 나타내는 것인데, ECC는 데이터 저장 장치나 메모리 시스템에서 발생하는 에러를 검출하고 수정하는 기술**
