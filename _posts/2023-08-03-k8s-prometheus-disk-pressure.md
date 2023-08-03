@@ -11,8 +11,6 @@ tags: [
     ingress,
   ]
 ---
-# [K8S] Prometheus 의 Disk Pressure 현상
-
 ## Description
 
 - `Kuberntes` 환경에서 모니터링을 위해서 `Prometheus`를 사용 중.
