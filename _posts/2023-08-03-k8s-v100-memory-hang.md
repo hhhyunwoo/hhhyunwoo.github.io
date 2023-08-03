@@ -15,7 +15,8 @@ tags: [
 
 - GPU 장비로 Kubernetes 클러스터를 관리하다가 어느 순간부터 여러개의 GPU 장비에서 Memory Hang 현상이 발생
 
-<img width="1131" alt="image" src="https://github.com/hhhyunwoo/leetcode/assets/37402136/9896c366-9496-4d72-8c92-558f0032a985">
+<img width="1129" alt="image" src="https://github.com/hhhyunwoo/leetcode/assets/37402136/35528d3b-683b-4147-84df-f41c4a3d12ea">
+
 
 ## Cause
 
@@ -82,7 +83,7 @@ tags: [
     ```
     
 
-<img width="1129" alt="image" src="https://github.com/hhhyunwoo/leetcode/assets/37402136/35528d3b-683b-4147-84df-f41c4a3d12ea">
+<img width="1131" alt="image" src="https://github.com/hhhyunwoo/leetcode/assets/37402136/9896c366-9496-4d72-8c92-558f0032a985">
 
 - 실질적으로 해당 GPU Node 가 사용되는 부분은 해당 장비를 기반으로 만들어진 Kubernetes 클러스터 위에 직접 구축한 MLOps 플랫폼 위에서 VM 형태의 Job 이 돌고 있음
 - 해당 Job 에 할당된 리소스는 `48 core, 4gpu, 500Gi mem, 32GB GPUmem`
