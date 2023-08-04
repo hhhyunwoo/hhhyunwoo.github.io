@@ -105,4 +105,25 @@ ref. [https://stackoverflow.com/questions/9818755/why-would-we-need-to-lock-a-pr
     - 이 권한은 컨테이너가 특정 **IPC 리소스에 액세스하고 조작할 수 있는지를 제어**
 - 학습이 도는 컨테이너에 IPC_LOCK 권한을 부여하게 되면 ulimit을 무시하고 최대의 메모리를 사용할수 있다!
 
+```yaml
+# CONTAINER
+securityContext:
+    allowPrivilegeEscalation: false
+    capabilities:
+      add:
+      - IPC_LOCK
+      drop:
+      - all
+    privileged: false
+
+# POD
+securityContext:
+            fsGroup: 1000
+            runAsGroup: 1000
+            runAsNonRoot: true
+            runAsUser: 1000
+```
+- 위의 부분들인데, 영향을 주는 부분은 아래의 pod 권한과 drop {"all"} 부분임. 다른 것들은 각각 추가해서 테스트해봤는데 정상동작함
+- 따라서 IB 인경우 위의 두개를 빼는 로직을 hotfix 로 추가
+
 따라서 우리는 해당 이슈를 해결하기 위해서 노드 혹은 도커의 Memory limit 을 설정하기 보다, 학습이 도는 컨테이너에 `IPC_LOCK` 권한을 부여하면서 해결하였음.
