@@ -20,7 +20,7 @@ tags: [
 
 ### kubeadm 으로 reset 후 ipvsadm — clear 작업
 
-```json
+```bash
 test-app14:/etc/apt/trusted.gpg.d# kubeadm reset
 [reset] WARNING: Changes made to this host by 'kubeadm init' or 'kubeadm join' will be reverted.
 [reset] Are you sure you want to proceed? [y/N]: y
@@ -50,7 +50,7 @@ test-app14:/etc/apt/trusted.gpg.d# ipvsadm --clear
 
 ### Docker 삭제
 
-```json
+```bash
 test-app14:/etc/apt/trusted.gpg.d# sudo docker version
 test-app14:/etc/apt/trusted.gpg.d# apt remove docker-ce
 ```
@@ -59,15 +59,17 @@ test-app14:/etc/apt/trusted.gpg.d# apt remove docker-ce
 
 - CNI 이슈 예시
 
-```json
+```bash
 (combined from similar events): Failed to create pod sandbox: rpc error: code = Unknown desc = failed to set up sandbox container "XX" network for pod "gpu-monitoring-dcgm-exporter-jv4t6": networkPlugin cni failed to set up pod "gpu-monitoring-dcgm-exporter-jv4t6_gpu-monitoring" network: failed to set bridge addr: "cni0" already has an IP address different from X.X.X.X/25
 ```
 
 - 네트워크 설정 작업
 
-```json
+```bash
 # sudo -i
 # ip link set cni0 down && ip link set flannel.1 down
 # ip link delete cni0 && ip link delete flannel.1
 # systemctl restart docker && systemctl restart kubelet
 ```
+## Reference
+- 팀원분께서 트러블슈팅해주신 내용을 바탕으로 정리한 글입니다. 
