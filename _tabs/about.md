@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> If you are intereted in me, you can get more detail about me by visiting my [Notion Portfolio(ko)](https://hhhyunwoo.notion.site/Hyunwoo-Kim-s-Portfolio-cbeb0c3e71874e4694b33f58dd50ec0a) or [Notion Portfolio(en)](https://hhhyunwoo.notion.site/hhhyunwoo/Hyunwoo-Kim-s-Portfolio-EN-590e8464f17a44ffa69e8fc67c0680ef) for detail! 
+> If you are intereted in me, you can get more detail about me by visiting my [Notion Portfolio(ko)](https://url.kr/xcy32n) or [Notion Portfolio(en)](https://hhhyunwoo.notion.site/hhhyunwoo/Hyunwoo-Kim-s-Portfolio-EN-590e8464f17a44ffa69e8fc67c0680ef) for detail! 
 <br>
 
 <div style="display: flex; flex-direction: row;">
