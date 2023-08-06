@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[GPU] uncorrectable ECC 에러로 인한 GPU 카드 인식 불가 현상"
-date: 2023-07-06
+date: 2023-05-06
 categories:
   - GPU
 tags: [

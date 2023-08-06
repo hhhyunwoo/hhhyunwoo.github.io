@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[K8S] Kubespray로 만든 Kubernetes 클러스터의 Master 1번 Node 장애 복구"
-date: 2023-07-07
+date: 2023-05-07
 categories:
   - Kubernetes
 tags: [

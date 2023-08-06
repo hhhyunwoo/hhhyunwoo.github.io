@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[K8S] MongoDB Connection Failed 이슈"
-date: 2023-07-09
+date: 2023-02-09
 categories:
   - Kubernetes
 tags: [

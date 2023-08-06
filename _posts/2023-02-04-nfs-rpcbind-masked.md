@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[NFS] NFS Mount 시 'Unit rpcbind.socket is masked' 에러 발생"
-date: 2023-07-04
+date: 2023-02-04
 categories:
   - NFS
 tags: [

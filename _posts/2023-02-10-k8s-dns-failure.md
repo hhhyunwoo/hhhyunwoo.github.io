@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[K8S] Node 에서 Domain Resolving(nslookup) 실패 이슈"
-date: 2023-07-10
+date: 2023-02-10
 categories:
   - Kubernetes
 tags: [
@@ -12,12 +12,21 @@ tags: [
 ---
 ## Description
 
-- systemd-resolved.service 를 켰을 때 아래와 같이 nslookup이 안되는 경우가 있음
+### nslookup 이란?
+- `nslookup`은 **리눅스, 맥OS, 윈도우** 등에서 사용할 수 있는 커맨드라인 명령어 중 하나로 DNS 레코드를 조회할 때 사용함.
+  - 즉, 도메인이나 IP를 파라미터로 넣었을 때 해당 값이 설정되어있는 DNS 레코드의 조회가 가능함.
+- nslookup 의 모든 기능은 dig 명령어로도 가능함!
+
+### systemd-resolved.service 란?
+- Linux 시스템에서 domain resolving 을 위해서 사용하는 데몬 시스템 
+
+### Problem
+- systemd-resolved.service 를 켰을 때 아래와 같이 nslookup이 안되는 경우가 발생하여, 해결한 부분을 블로그 글로 작성한다. 
 
 ```bash
 test-app2:~$ nslookup google.com
 Server:        127.0.0.53
-Address:    127.0.0.53#53
+Address:    127.0.0.53
  
 ** server can't find google.com: SERVFAIL
  
