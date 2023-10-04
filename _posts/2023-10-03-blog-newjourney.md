@@ -7,6 +7,7 @@ categories:
 tags: [
     blog,
   ]
+thumbnail: "https://github.com/hhhyunwoo/hhhyunwoo/assets/37402136/8c2d8060-9a41-4d88-92f7-bedcb3ee4bf0"
 ---
 
 # Intro
