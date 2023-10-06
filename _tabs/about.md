@@ -56,7 +56,6 @@ order: 4
 </div>
 
 ### I'm a software engineer who is curious about every new things. And "Keep Blitz and Be Simple", "Keep It Simple Stupid" is my motto. I always try to be simple. 😊
-### **“Keep Blitz and Be Simple”** 과 **“Keep It Simple Stupid”** 를 좌우명으로 가지고 있으며 생생한 꿈을 현실로 만들기 위해 노력하는 호기심 많은 소프트웨어 엔지니어입니다. 
 
 ## 🌥 SOFTWARE ENGINEER
 
@@ -67,12 +66,6 @@ order: 4
 
 ### Skilled **DevOps** Engineer well-versed in Cloud Native technologies
 
----
-### GPU *2000*장이 넘는 대규모 **HPC** 클러스터 운영 경험
-
-### **MLOps** 플랫폼의 기획부터 운영까지 *End-to-End* 로 경험
-
-### **Cloud Native** 기술을 잘 활용하여 MLOps 플랫폼의 DevOps 역할 수행 경험
 ---
 
 ## INTERESTS
