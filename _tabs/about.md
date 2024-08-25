@@ -21,8 +21,8 @@ order: 4
         </a>
       </li>
       <li>
-        <a href="mailto:hans.rw@kakaoenterprise.com">
-          <img src="https://img.shields.io/badge/-KakaoEnterprise-yellow?style=flat-square&logoColor=white" alt="KEP Badge">
+        <a href="mailto:hans.818@tossbank.com">
+          <img src="https://img.shields.io/badge/-Tossbank-blue?style=flat-square&logoColor=white" alt="KEP Badge">
         </a>
       </li>
     </ul>
@@ -60,11 +60,12 @@ order: 4
 ## 🌥 SOFTWARE ENGINEER
 
 ---
-### Experienced System Engineer with expertise in operating large-scale HPC clusters, managing over ***2000 GPUs***
 
 ### Proficient in *end-to-end* planning and operation of **MLOps platform** as a Software Engineer
 
 ### Skilled **DevOps** Engineer well-versed in Cloud Native technologies
+
+### Experienced System Engineer with expertise in operating large-scale HPC clusters, managing over ***2000 GPUs***
 
 ---
 
@@ -83,12 +84,21 @@ order: 4
 # 🏢  WORK EXPERIENCES
 
 ---
+## Toss Bank, South Korea
+
+### *Machine Learning Software Engineer, Machine Learning Platform Team*
+
+*Oct 2023 ~ Present*
+
+- Stably developed and operated Tossbank’s **Credit Strategy System** and successfully embedded Credit Scoring machine learning models into the strategy system, contributing to Tossbank’s competitive credit system
+- Operated Tossbank’s large-scale deployment program through stable Airflow cluster operation
+- Built Tossbank’s machine learning platform, contributing to flexible model development and deployment
 
 ## Kakao Enterprise, South Korea
 
 ### Cloud Software Engineer, Machine Learning Platform Part
 
-*Mar 2022 ~ Present*
+*Mar 2022 ~ Aug 2023*
 
 - Led end-to-end planning, development, and operation of Kakao i Machine Learning MLOps platform.
 - Successfully operated a stable HPC cluster composed of over 2,000 GPUs and Infiniband Network.
