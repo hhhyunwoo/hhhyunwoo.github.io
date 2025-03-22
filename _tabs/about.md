@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> If you are intereted in me, you can get more detail about me by visiting my [Notion Portfolio(ko)](https://bit.ly/3OLxAJE) or [Notion Portfolio(en)](https://bit.ly/3DOJRqp) for detail! 
+### If you are intereted in me, you can get more detail about me by visiting my 👉 [Notion Portfolio](https://bit.ly/3OLxAJE) 👈 [Notion Portfolio(Korean)](https://bit.ly/3DOJRqp) for detail! 
 <br>
 
 <div style="display: flex; flex-direction: row;">
@@ -84,34 +84,36 @@ order: 4
 # 🏢  WORK EXPERIENCES
 
 ---
-## Toss Bank, South Korea
+## Toss Bank
 
-### *Machine Learning Software Engineer, Machine Learning Platform Team*
+### Machine Learning Software Engineer, Machine Learning Platform Team
 
 *Oct 2023 ~ Present*
 
-- Stably developed and operated Tossbank’s **Credit Strategy System** and successfully embedded Credit Scoring machine learning models into the strategy system, contributing to Tossbank’s competitive credit system
-- Operated Tossbank’s large-scale deployment program through stable Airflow cluster operation
-- Built Tossbank’s machine learning platform, contributing to flexible model development and deployment
+- Built Machine Learning Platform, contributing to flexible model development and deployment.
+- Stably developed and operated Credit Strategy System and embedded Credit Scoring machine learning models into the strategy system, contributing to Tossbank’s competitive loan credit system
+- Engineered and sustained a large-scale Airflow batch system managing 1,000+ workflows, achieving 99.9% system uptime in the critical banking environment.
+- Migrated a data ingestion pipeline processing 9M + daily records from Elasticsearch to MongoDB, enhancing data security and compliance. And also migrated a data ingestion pipeline processing 9M + daily records from Elasticsearch to MongoDB, enhancing data security and compliance.
+- Managed a feature store on ScyllaDB (Cassandra-compatible, high-performance NoSQL DB)
 
-## Kakao Enterprise, South Korea
+## Kakao Enterprise
 
-### Cloud Software Engineer, Machine Learning Platform Part
+### Software Engineer, Machine Learning Platform Part
 
 *Mar 2022 ~ Aug 2023*
 
-- Led end-to-end planning, development, and operation of Kakao i Machine Learning MLOps platform.
-- Successfully operated a stable HPC cluster composed of over 2,000 GPUs and Infiniband Network.
-- Established and maintained stable infrastructure for high-performance computing projects in public environments.
-- Planned and executed the successful relocation of over 300 devices for a major power facility relocation.
+- Developed and maintained the Kakao i Machine Learning MLOps platform leveraging Golang and Python. Managed over 2,000 GPUs(NVIDIA A100, V100, T4) across 20+ Kubernetes clusters using Kubespray. Ensured smooth platform operation for approximately 100+ active users, achieving 99.9% system uptime.
+- Successfully operated a stable HPC(High-Performance Computing) cluster basede on Infiniband network. Also established and maintained stable infrastructure for high-performance computing projects in public environments.
+- Planned and executed the successful relocation of over 300 GPU, CPU devices for a major power facility relocation with 99.99% system uptime.
+- Developed MSA components in the backend (API Server), client (CLI, SDK) and infra element development of inference function for MLOps platform. And also built CI/CD system for platform over Kubernetes.
 
 ### Software System Engineer, Voice System Part
 
 *Jul 2020 ~ Feb 2022*
 
-- Developed the Cluster Controller component for Kakao i Cloud STT service, ensuring stable operation across multiple clusters.
-- Led the planning, development, and operation of Kakao i Speech Transcription Tool, enabling 8 transcribers to process approximately 3K sentences daily.
-- Developed and operated a log management system to handle approximately 3 million daily Kakao i voice data from around 100,000 users.
+- Developed the Cluster Controller component for Kakao i Cloud STT service using Python, ensuring stable operation across multiple clusters.
+- Led the planning, development, and operation of Kakao i Speech Transcription Tool using Python Django and React, enabling 8 transcribers to process approximately 3K sentences daily.
+- Developed and operated a log management system using Kafka to handle approximately 3 million daily Kakao i voice data from around 100,000 users.
 - Developed and operated tools for providing internal voice service demos.
 
 ---
@@ -123,6 +125,7 @@ order: 4
 
 - Python
 - Go
+- Javascript
 
 ## Cloud Native
 
@@ -148,7 +151,7 @@ order: 4
 
 ---
 
-## Kyungpook National University, South Korea
+## Kyungpook National University
 
 2015.03 ~ 2021.02.
 
