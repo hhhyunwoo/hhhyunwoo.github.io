@@ -47,7 +47,7 @@ order: 4
         </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/qrlagusdn/">
+        <a href="https://www.linkedin.com/in/hyunwoo-hans-kim/">
           <img src="https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin Badge">
         </a>
       </li>
