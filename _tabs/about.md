@@ -4,7 +4,11 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-### If you are intereted in me, you can get more detail about me by visiting my 👉 [Notion Portfolio](https://bit.ly/3DOJRqp) 👈 [Notion Portfolio(Korean)](https://bit.ly/3OLxAJE) for detail! 
+### If you are intereted in me, you can get more detail about me by visiting my Portfolio page for detail!!
+
+#### 👉 [Notion Portfolio](https://bit.ly/3DOJRqp) 👈  
+([Notion Portfolio(Korean)](https://bit.ly/3OLxAJE)) 
+
 <br>
 
 <div style="display: flex; flex-direction: row;">
