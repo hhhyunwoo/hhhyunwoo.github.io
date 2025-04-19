@@ -20,13 +20,8 @@ order: 4
     <h3>📮 Contacts</h3>
     <ul>
       <li>
-        <a href="mailto:qgusdngusdn@gmail.com">
+        <a href="mailto:hyunwoo.h.kim@gmail.com">
           <img src="https://img.shields.io/badge/Gmail-d14836?style=flat-square&logo=Gmail&logoColor=white" alt="Gmail Badge">
-        </a>
-      </li>
-      <li>
-        <a href="mailto:hans.818@tossbank.com">
-          <img src="https://img.shields.io/badge/-Tossbank-blue?style=flat-square&logoColor=white" alt="KEP Badge">
         </a>
       </li>
     </ul>
@@ -106,7 +101,7 @@ order: 4
 
 *Mar 2022 ~ Aug 2023*
 
-- Developed and maintained the Kakao i Machine Learning MLOps platform leveraging Golang and Python. Managed over 2,000 GPUs(NVIDIA A100, V100, T4) across 20+ Kubernetes clusters using Kubespray. Ensured smooth platform operation for approximately 100+ active users, achieving 99.9% system uptime.
+- Developed and maintained the Kakao i Machine Learning MLOps platform leveraging Golang and Python. Managed over 2,000 GPUs(NVIDIA A100, V100, T4) across 20+ Kubernetes clusters using Kubespray. Ensured smooth platform operation for approximately 200+ active users, achieving 99.9% system uptime.
 - Successfully operated a stable HPC(High-Performance Computing) cluster basede on Infiniband network. Also established and maintained stable infrastructure for high-performance computing projects in public environments.
 - Planned and executed the successful relocation of over 300 GPU, CPU devices for a major power facility relocation with 99.99% system uptime.
 - Developed MSA components in the backend (API Server), client (CLI, SDK) and infra element development of inference function for MLOps platform. And also built CI/CD system for platform over Kubernetes.
@@ -115,10 +110,10 @@ order: 4
 
 *Jul 2020 ~ Feb 2022*
 
-- Developed the Cluster Controller component for Kakao i Cloud STT service using Python, ensuring stable operation across multiple clusters.
-- Led the planning, development, and operation of Kakao i Speech Transcription Tool using Python Django and React, enabling 8 transcribers to process approximately 3K sentences daily.
-- Developed and operated a log management system using Kafka to handle approximately 3 million daily Kakao i voice data from around 100,000 users.
-- Developed and operated tools for providing internal voice service demos.
+- Designed and operationalized the Voice Transcription Tool with React and Python, enabling 10+ transcribers to process 3K+ voice data daily, significantly enhancing transcription productivity and addressing domain drift issues in STT(Speech-to-Text). 
+- Operated a Kakao i voice data log management system to handle 3M+ daily data logs from 100k+ users.
+- Built and operated the Kakao i Cloud STT service, enabling 20+ custom user language models on Kubernetes through a Python-based controller, resulting in efficient deployment and stable operation.
+- Developed real-time STT demo services with WebSocket streaming and file upload support to showcase Kakao i’s speech recognition features.
 
 ---
 # 🛠  SKILLS
@@ -151,6 +146,19 @@ order: 4
 - Linux/System programming
 - Machine Learning
 
+# 📜 CERTIFICATIONS
+
+---
+
+### AWS Certified Cloud Practitioner (CLF)
+
+Issued Apr 2023 · Expires Apr 2026
+
+### MLOps Engineering on AWSMLOps Engineering on AWS
+
+Issued Apr 2022 · Expires Apr 2025
+
+
 # 🎓  EDUCATION
 
 ---
@@ -167,15 +175,3 @@ order: 4
 Spring Semester 2020
 
 - *International Studies Program*
-
-# 📜 CERTIFICATIONS
-
----
-
-### AWS Certified Cloud Practitioner (CLF)
-
-Issued Apr 2023 · Expires Apr 2026
-
-### MLOps Engineering on AWSMLOps Engineering on AWS
-
-Issued Apr 2022 · Expires Apr 2025
