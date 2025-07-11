@@ -2,7 +2,7 @@
 title: About
 layout: about
 icon: fas fa-info-circle
-order: 4
+order: 5
 ---
 
 <style>
