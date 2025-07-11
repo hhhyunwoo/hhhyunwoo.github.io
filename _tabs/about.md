@@ -487,7 +487,7 @@ function showCopyToast() {
       About Me
     </h2>
     <p class="about-text">
-      I'm a software engineer who is curious about every new things. My motto is "Keep Blitz and Be Simple" and "Keep It Simple Stupid" - I always try to be simple and efficient in my approach to problem-solving.
+      I'm a software engineer who is curious about every new things. My motto is "Keep Blitz and Be Simple" - I always try to be simple and efficient in my approach to problem-solving.
     </p>
     <p class="about-text">
       I specialize in <strong>MLOps platform development</strong>, <strong>DevOps engineering</strong>, and <strong>cloud-native technologies</strong>. With extensive experience in operating large-scale systems, I've successfully managed over 2000 GPUs and built robust, scalable infrastructure solutions.
