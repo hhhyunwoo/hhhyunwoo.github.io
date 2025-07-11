@@ -18,9 +18,9 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Hyunwoo Kim # the main title
+title: Hans H. Kim # the main title
 
-tagline: Software Engineer <br> <br> Keep Blizt and Be Simple
+tagline: Machine Learning Engineer <br> <br> Keep Blizt and Be Simple
 
 description: >- # used by seo meta and the atom feed
   A minimal, portfolio, sidebar,
@@ -36,8 +36,8 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: Hyunwoo Kim
-  email: qgusdngusdn@gmail.com # change to your email address
+  name: Hans H. Kim
+  email: hyunwoo.h.kim@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
     - https://github.com/hhhyunwoo # change to your github homepage
