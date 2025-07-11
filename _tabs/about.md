@@ -564,9 +564,10 @@ function showCopyToast() {
         <h4>Programming Languages</h4>
         <div class="skill-tags">
           <span class="skill-tag">Python</span>
-          <span class="skill-tag">Go</span>
+          <span class="skill-tag">Golang</span>
           <span class="skill-tag">JavaScript</span>
-          <span class="skill-tag">C/C++</span>
+          <span class="skill-tag">Kotlin</span>
+          <span class="skill-tag">Shell</span>
         </div>
       </div>
       <div class="skill-category">
@@ -575,27 +576,37 @@ function showCopyToast() {
           <span class="skill-tag">Kubernetes</span>
           <span class="skill-tag">Docker</span>
           <span class="skill-tag">ArgoCD</span>
-          <span class="skill-tag">Jenkins</span>
           <span class="skill-tag">Helm</span>
+          <span class="skill-tag">Istio</span>
+          <span class="skill-tag">Terraform</span>
+          <span class="skill-tag">CI/CD</span>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h4>Databases & Storage</h4>
+        <div class="skill-tags">
+          <span class="skill-tag">ScyllaDB</span>
+          <span class="skill-tag">Cassandra</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">MySQL</span>
         </div>
       </div>
       <div class="skill-category">
         <h4>Machine Learning & Data</h4>
         <div class="skill-tags">
           <span class="skill-tag">MLOps</span>
-          <span class="skill-tag">Kubeflow</span>
-          <span class="skill-tag">ScyllaDB</span>
-          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">MLflow</span>
           <span class="skill-tag">Airflow</span>
+          <span class="skill-tag">GPU Computing</span>
         </div>
       </div>
       <div class="skill-category">
-        <h4>Specializations</h4>
+        <h4>Frameworks & Tools</h4>
         <div class="skill-tags">
-          <span class="skill-tag">Microservices</span>
-          <span class="skill-tag">System Programming</span>
-          <span class="skill-tag">HPC Clusters</span>
+          <span class="skill-tag">React</span>
+          <span class="skill-tag">Spring</span>
           <span class="skill-tag">AWS</span>
+          <span class="skill-tag">Linux</span>
         </div>
       </div>
     </div>
