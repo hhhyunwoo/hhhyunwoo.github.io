@@ -504,7 +504,7 @@ function showCopyToast() {
     
     <div class="experience-item">
       <h3 class="company-name">Toss Bank</h3>
-      <div class="job-title">Machine Learning Software Engineer</div>
+      <div class="job-title">Machine Learning Engineer</div>
       <div class="job-period">
         <span>Oct 2023 - Present</span>
         <span class="current-badge">Current</span>
