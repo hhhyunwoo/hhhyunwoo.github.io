@@ -3,7 +3,7 @@ layout: post
 title: "[CISCO 네트워킹] 6. 스위치를 켜라"
 date: 2022-12-23
 categories:
-  - mentoring/books
+  - tech/books
 tags:
   [
     blog,

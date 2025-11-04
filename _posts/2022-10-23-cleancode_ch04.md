@@ -3,7 +3,7 @@ layout: post
 title: "[Clean code] Ch04. Annotation"
 date: 2022-10-23
 categories:
-  - mentoring/books
+  - tech/books
 tags:
   [
     blog,

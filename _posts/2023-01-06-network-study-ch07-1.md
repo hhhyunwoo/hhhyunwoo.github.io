@@ -3,7 +3,7 @@ layout: post
 title: "[CISCO 네트워킹] 7. 라우터만 알면 네트워크 도사? (1)"
 date: 2023-01-06
 categories:
-  - mentoring/books
+  - tech/books
 tags:
   [
     blog,

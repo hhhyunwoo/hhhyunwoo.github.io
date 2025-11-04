@@ -3,7 +3,7 @@ layout: post
 title: "[Clean code] Ch09. Unit Tests"
 date: 2023-01-04
 categories:
-  - mentoring/books
+  - tech/books
 tags:
   [
     blog,

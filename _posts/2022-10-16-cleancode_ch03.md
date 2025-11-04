@@ -3,7 +3,7 @@ layout: post
 title: "[Clean code] Ch03. Functions"
 date: 2022-10-16
 categories:
-  - mentoring/books
+  - tech/books
 tags:
   [
     blog,

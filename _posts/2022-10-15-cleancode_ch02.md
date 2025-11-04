@@ -3,7 +3,7 @@ layout: post
 title: "[Clean code] Ch02. Meaningful Names"
 date: 2022-10-15
 categories:
-  - mentoring/books
+  - tech/books
 tags:
   [
     blog,

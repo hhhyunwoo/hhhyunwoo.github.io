@@ -3,7 +3,7 @@ layout: post
 title: "[Clean code] Ch11. System"
 date: 2023-01-04
 categories:
-  - mentoring/books
+  - tech/books
 tags:
   [
     blog,

@@ -3,7 +3,7 @@ layout: post
 title: "[데이터 중심 애플리케이션 설계] Ch1. Reliable, Scalable, and Maintainable Applications"
 date: 2023-06-27
 categories:
-  - mentoring/books
+  - tech/books
 tags: [
     data,
     data-intensive,

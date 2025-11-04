@@ -3,7 +3,7 @@ layout: post
 title: "[CISCO 네트워킹] 4. 네트워크 장비에 관한 이야기"
 date: 2022-12-07
 categories:
-  - mentoring/books
+  - tech/books
 tags:
   [
     blog,

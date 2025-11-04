@@ -3,7 +3,7 @@ layout: post
 title: "[Clean code] Ch17. Smells and Heuristics"
 date: 2023-01-16
 categories:
-  - mentoring/books
+  - tech/books
 tags:
   [
     blog,
