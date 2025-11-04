@@ -3,7 +3,7 @@ layout: post
 title: "[K8S] 같은 노드의 CoreDNS 로의 응답이 없는 이슈 (dns resolution failed)"
 date: 2023-05-11
 categories:
-  - Kubernetes
+  - tech/kubernetes
 tags: [
     k8s,
     coredns,

@@ -3,7 +3,7 @@ layout: post
 title: "[K8S] Termination of Pods"
 date: 2023-06-22
 categories:
-  - Kubernetes
+  - tech/kubernetes
 tags: [
     kubernetes,
     k8s,

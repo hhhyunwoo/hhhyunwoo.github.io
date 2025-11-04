@@ -3,7 +3,7 @@ layout: post
 title: "[Golang] map, slice, list 정리 "
 date: 2022-07-23
 categories:
-  - Golang
+  - tech/infrastructure
 tags:
   [
     blog,

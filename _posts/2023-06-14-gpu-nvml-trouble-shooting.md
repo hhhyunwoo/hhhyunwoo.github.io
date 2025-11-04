@@ -3,8 +3,7 @@ layout: post
 title: "[GPU] NVML Function Not Found Error (ft. pynvml)"
 date: 2023-06-14
 categories:
-  - Trouble Shooting
-  - GPU
+  - tech/infrastructure
 tags: [
     NVIDIA,
     GPU,

@@ -3,8 +3,7 @@ layout: post
 title: "[SQLalchemy] NULL 조회 "
 date: 2022-02-17
 categories:
-  - Trouble Shooting
-  - SQLalchemy
+  - tech/database
 tags:
   [
     blog,

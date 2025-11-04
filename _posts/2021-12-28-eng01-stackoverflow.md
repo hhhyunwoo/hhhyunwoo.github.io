@@ -3,7 +3,7 @@ layout: post
 title: "[번역] Stack Overflow는 어떻게 운영되고 있을까?"
 date: 2021-12-28
 categories:
-  - Study
+  - mentoring/translations
 tags:
   [
     blog,

@@ -3,8 +3,7 @@ layout: post
 title: "[etcd] [Docs Learning] etcd v3 authentication design"
 date: 2023-06-05
 categories:
-  - etcd
-  - docs
+  - tech/infrastructure
 tags: [
     etcd,
     docs,

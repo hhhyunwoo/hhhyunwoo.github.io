@@ -3,9 +3,7 @@ layout: post
 title: "[CISCO 네트워킹] 8. 라우팅 프로토콜과의 한판"
 date: 2023-05-21
 categories:
-  - Study
-  - Book
-  - CISCO Networking
+  - mentoring/books
 tags:
   [
     blog,

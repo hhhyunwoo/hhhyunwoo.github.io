@@ -3,9 +3,7 @@ layout: post
 title: "[Infiniband] NCCL WARN Call to ibv_reg_mr failed 이슈 해결"
 date: 2023-05-18
 categories:
-  - Trouble Shooting
-  - Infiniband
-  - Kubernetes
+  - tech/kubernetes
 tags: [
     infiniband,
     kubernetes,

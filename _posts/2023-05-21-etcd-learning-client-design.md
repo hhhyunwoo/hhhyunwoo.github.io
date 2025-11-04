@@ -3,8 +3,7 @@ layout: post
 title: "[etcd] [Docs Learning] Client Design"
 date: 2023-05-21
 categories:
-  - etcd
-  - docs
+  - tech/infrastructure
 tags: [
     etcd,
     docs,

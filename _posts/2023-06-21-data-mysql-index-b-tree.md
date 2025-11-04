@@ -3,7 +3,7 @@ layout: post
 title: "[Data Structure] MySQL Index 자료구조 B-tree"
 date: 2023-06-21
 categories:
-  - Data Structure
+  - tech/database
 tags: [
     data structure,
     b-tree,

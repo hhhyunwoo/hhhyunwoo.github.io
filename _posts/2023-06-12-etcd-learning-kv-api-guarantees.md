@@ -3,8 +3,7 @@ layout: post
 title: "[etcd] [Docs Learning] KV API Guarantees"
 date: 2023-06-12
 categories:
-  - etcd
-  - docs
+  - tech/infrastructure
 tags: [
     etcd,
     docs,

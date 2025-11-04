@@ -3,7 +3,7 @@ layout: post
 title: "[K8S] Prometheus 의 Disk Pressure 현상"
 date: 2023-05-03
 categories:
-  - Kubernetes
+  - tech/kubernetes
 tags: [
     kubernetes,
     k8s,

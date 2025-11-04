@@ -3,8 +3,7 @@ layout: post
 title: "[Trouble Shooting] Jekyll chirpy 템플릿으로 Github 블로그 시작하기. (Bundler Install Error)"
 date: 2021-11-13
 categories:
-  - Trouble Shooting
-  - Jekyll
+  - tech/infrastructure
 tags:
   [
     blog,

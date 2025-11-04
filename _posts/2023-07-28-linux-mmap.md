@@ -3,7 +3,7 @@ layout: post
 title: "[Linux] mmap() 에 대해서"
 date: 2023-07-28
 categories:
-  - Linux
+  - tech/infrastructure
 tags: [
     linux,
     mmap,

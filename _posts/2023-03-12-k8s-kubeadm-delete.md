@@ -3,7 +3,7 @@ layout: post
 title: "[K8S] host 에서 Kubeadm 으로 Kubernetes 환경 제거하기"
 date: 2023-03-12
 categories:
-  - Kubernetes
+  - tech/kubernetes
 tags: [
     k8s,
     kubeadm,

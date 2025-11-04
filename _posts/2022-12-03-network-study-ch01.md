@@ -3,9 +3,7 @@ layout: post
 title: "[CISCO 네트워킹] 2. 네트워크와 케이블, 그리고 친구들 "
 date: 2022-12-03
 categories:
-  - Study
-  - Book
-  - CISCO Networking
+  - mentoring/books
 tags:
   [
     blog,

@@ -3,7 +3,7 @@ layout: post
 title: "[K8S] Worker Node의 Kubelet IP 변경하기"
 date: 2023-06-20
 categories:
-  - Kubernetes
+  - tech/kubernetes
 tags: [
     kubernetes,
     k8s,

@@ -3,7 +3,7 @@ layout: post
 title: "🏢 첫번째 퇴사, 첫번째 이직"
 date: 2023-10-03
 categories:
-  - Blog
+  - daily
 tags: [
     blog,
   ]

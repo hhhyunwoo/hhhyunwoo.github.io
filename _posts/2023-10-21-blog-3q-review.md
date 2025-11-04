@@ -3,7 +3,7 @@ layout: post
 title: "2023년 3분기 회고"
 date: 2023-10-21
 categories:
-  - Blog
+  - daily
 tags: [
     blog,
   ]

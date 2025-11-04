@@ -3,8 +3,7 @@ layout: post
 title: "[etcd] [Docs Learning] etcd versus other key-value stores"
 date: 2023-06-26
 categories:
-  - etcd
-  - docs
+  - tech/infrastructure
 tags: [
     etcd,
     docs,

@@ -3,9 +3,7 @@ layout: post
 title: "[Clean code] Ch07,08. Error Handling"
 date: 2022-10-30
 categories:
-  - Study
-  - Book
-  - Clean Code
+  - mentoring/books
 tags:
   [
     blog,

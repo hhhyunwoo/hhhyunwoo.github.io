@@ -3,7 +3,7 @@ layout: post
 title: "[K8S] V100 GPU 장비 메모리 Hang 발생 Trouble shooting"
 date: 2023-04-03
 categories:
-  - Kubernetes
+  - tech/kubernetes
 tags: [
     kubernetes,
     k8s,

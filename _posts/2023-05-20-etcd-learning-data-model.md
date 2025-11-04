@@ -3,8 +3,7 @@ layout: post
 title: "[etcd] [Docs Learning] Data Model"
 date: 2023-05-20
 categories:
-  - etcd
-  - docs
+  - tech/infrastructure
 tags: [
     etcd,
     docs,

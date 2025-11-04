@@ -3,9 +3,7 @@ layout: post
 title: "[Clean code] Ch13. Concurrency"
 date: 2023-01-15
 categories:
-  - Study
-  - Book
-  - Clean Code
+  - mentoring/books
 tags:
   [
     blog,

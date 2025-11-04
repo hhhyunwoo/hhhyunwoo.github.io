@@ -3,7 +3,7 @@ layout: post
 title: "[번역] Pid 네임스페이스에 대한 궁금증 "
 date: 2022-07-16
 categories:
-  - Linux
+  - mentoring/translations
 tags:
   [
     blog,

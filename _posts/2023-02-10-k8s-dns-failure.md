@@ -3,7 +3,7 @@ layout: post
 title: "[K8S] Node 에서 Domain Resolving(nslookup) 실패 이슈"
 date: 2023-02-10
 categories:
-  - Kubernetes
+  - tech/kubernetes
 tags: [
     k8s,
     domain,

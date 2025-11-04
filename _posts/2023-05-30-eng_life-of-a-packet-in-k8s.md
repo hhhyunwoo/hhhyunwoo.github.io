@@ -3,7 +3,7 @@ layout: post
 title: "[번역] Life of a Packet in Kubernetes— Part 3"
 date: 2023-05-30
 categories:
-  - Kubernetes
+  - mentoring/translations
 tags:
   [
     kubernetes,

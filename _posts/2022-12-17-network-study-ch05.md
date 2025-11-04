@@ -3,9 +3,7 @@ layout: post
 title: "[CISCO 네트워킹] 5. IP 주소로의 여행"
 date: 2022-12-17
 categories:
-  - Study
-  - Book
-  - CISCO Networking
+  - mentoring/books
 tags:
   [
     blog,

@@ -3,9 +3,7 @@ layout: post
 title: "[CISCO 네트워킹] 12. IPv6 로 떠나는 여행"
 date: 2023-05-29
 categories:
-  - Study
-  - Book
-  - CISCO Networking
+  - mentoring/books
 tags:
   [
     blog,

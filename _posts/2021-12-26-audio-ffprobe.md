@@ -3,7 +3,7 @@ layout: post
 title: "[Audio] ffprobe 설명 및 사용법"
 date: 2021-12-26
 categories:
-  - Audio
+  - daily
 tags:
   [
     blog,

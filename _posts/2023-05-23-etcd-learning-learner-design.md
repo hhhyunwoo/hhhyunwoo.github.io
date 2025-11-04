@@ -3,8 +3,7 @@ layout: post
 title: "[etcd] [Docs Learning] Learner Design"
 date: 2023-05-23
 categories:
-  - etcd
-  - docs
+  - tech/infrastructure
 tags: [
     etcd,
     docs,

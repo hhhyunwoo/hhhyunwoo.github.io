@@ -3,7 +3,7 @@ layout: post
 title: "[K8S] Grafana vs Kibana"
 date: 2021-12-19
 categories:
-  - Kubernetes
+  - tech/kubernetes
 tags:
   [
     blog,

@@ -3,7 +3,7 @@ layout: post
 title: "[번역] Kubernetes: Flannel Networking"
 date: 2023-05-31
 categories:
-  - Kubernetes
+  - mentoring/translations
 tags:
   [
     kubernetes,

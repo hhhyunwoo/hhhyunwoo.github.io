@@ -3,7 +3,7 @@ layout: post
 title: "[Blog] Bucket List"
 date: 2021-11-22
 categories:
-  - ETC
+  - daily
 tags:
   [
     blog,
