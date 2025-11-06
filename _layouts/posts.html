@@ -3,12 +3,6 @@ layout: page
 # The Posts page layout
 ---
 
-<!-- Page Header -->
-<div class="page-header">
-  <h1>{{ page.title | default: "Blog Posts" }}</h1>
-  <p>Thoughts, experiences, and insights in technology and engineering</p>
-</div>
-
 <div id="post-list">
 
 {% assign pinned_posts = site.posts | where: "pin", true %}

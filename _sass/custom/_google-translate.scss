@@ -1,0 +1,96 @@
+/* Google Translate Widget Styling */
+
+#google_translate_element {
+  position: relative;
+  z-index: 1000;
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+/* Hide Google branding */
+#google_translate_element .goog-logo-link {
+  display: none !important;
+}
+
+#google_translate_element .goog-te-gadget {
+  font-size: 0 !important;
+}
+
+/* Style the translate dropdown */
+#google_translate_element .goog-te-combo {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border: 1px solid #e9ecef;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#google_translate_element .goog-te-combo:hover {
+  border-color: #2a408e;
+}
+
+#google_translate_element .goog-te-combo:focus {
+  outline: none;
+  border-color: #2a408e;
+  box-shadow: 0 0 0 0.2rem rgba(42, 64, 142, 0.25);
+}
+
+/* Hide the "Powered by" text */
+.goog-te-gadget-simple {
+  border: none !important;
+  background-color: transparent !important;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span:first-child {
+  display: none;
+}
+
+/* Style for the language selector */
+.goog-te-gadget-simple .goog-te-menu-value {
+  color: inherit !important;
+}
+
+.goog-te-gadget-simple .goog-te-menu-value span {
+  color: inherit !important;
+}
+
+/* Remove Google Translate banner at the top */
+body {
+  top: 0 !important;
+}
+
+.skiptranslate {
+  display: none !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  #google_translate_element {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+
+  #google_translate_element .goog-te-combo {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.4rem;
+  }
+}
+
+/* Dark mode support */
+[data-mode="dark"] #google_translate_element .goog-te-combo {
+  background-color: #1e1e1e;
+  color: #d1d5db;
+  border-color: #4b5563;
+}
+
+[data-mode="dark"] #google_translate_element .goog-te-combo:hover {
+  border-color: #6366f1;
+}
+
+[data-mode="dark"] #google_translate_element .goog-te-combo:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 0.2rem rgba(99, 102, 241, 0.25);
+}
